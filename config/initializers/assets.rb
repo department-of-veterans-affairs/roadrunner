@@ -9,3 +9,6 @@ Rails.application.config.assets.version = '1.0'
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
 # Rails.application.config.assets.precompile += %w( search.js )
+
+# Special IE love for va_common
+Rails.application.config.assets.precompile += %w( application_split2.css )
