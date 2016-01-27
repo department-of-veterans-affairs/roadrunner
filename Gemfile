@@ -23,7 +23,10 @@ group :production do
   gem 'rails_12factor'
 end
 
-gem "brakeman", :require => false
+group :development do
+  gem "brakeman", :require => false
+  gem 'guard-brakeman', '~> 0.8.3'
+end
 
 ###############################################################################
 ## Database gems:
@@ -67,6 +70,7 @@ end
 ## Use jquery/jquery-ui as the JavaScript library
 ## Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 ## bundle exec rake doc:rails generates the API under doc/api.
+## Use ActiveModel has_secure_password
 ###############################################################################
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -74,25 +78,8 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'bcrypt', '~> 3.1.7'
 
-# Use CoffeeScript for .coffee assets and views
-# gem 'coffee-rails', '~> 4.1.0'
-
-# Turbolinks makes following links in your web application faster. 
-#   Read more: https://github.com/rails/turbolinks
-# gem 'turbolinks'
-
-# See https://github.com/rails/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
-
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
-# Use Unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
 
 
 
