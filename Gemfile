@@ -12,6 +12,7 @@ gem 'va_common', '~> 0.3.5'
 ## Server/Hosting
 ## Puma for development/test
 ## Heroku for production, gems for Heroku asset compilation.
+## Brakeman for code security analysis
 ###############################################################################
 group :development, :test do
 	gem 'puma', '~> 2.15', '>= 2.15.3'
@@ -21,6 +22,8 @@ group :production do
   gem 'rails_serve_static_assets'
   gem 'rails_12factor'
 end
+
+gem "brakeman", :require => false
 
 ###############################################################################
 ## Database gems:
@@ -48,6 +51,13 @@ group :development, :test do
   gem 'factory_girl_rails', '~> 4.5'
   gem 'database_cleaner', '~> 1.5', '>= 1.5.1'
   gem 'dotenv-rails', '~> 2.1'
+end
+
+###############################################################################
+## RSpec file change monitoring
+###############################################################################
+group :development do
+  gem 'guard-rspec', require: false
 end
 
 ###############################################################################
