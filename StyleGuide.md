@@ -27,6 +27,7 @@ Feel free to edit these.
 **Color**
   - Palette
   - Combination
+
 **Sizing**
   - 75 pt character / Center-Aligned
 
