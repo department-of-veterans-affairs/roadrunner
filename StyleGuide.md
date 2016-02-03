@@ -16,7 +16,8 @@ Feel free to edit these.
 **Design Components**
   - Header/Footer
   - Navigation - breadcrumb
-  - Links (currently all the colors for search links are different) Note: General search, job search, candidate search
+  - Links (currently all the colors for search links are different) 
+    _Note: General search, job search, candidate search_
   - Search Results (3-4 lines, minimal descriptions, scanability)
   - Buttons (actionable vs. informational)
   - Cards (margins, padding, font size)
