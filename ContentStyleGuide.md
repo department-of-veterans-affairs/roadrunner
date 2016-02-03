@@ -28,7 +28,10 @@ Our goal is to give Veterans and their families the information they need to mak
  + What's the difference?
  + Voice (clear, direct, personal, conversational) 
  + Tone (warm, respectful, quiet**[note - why quiet? this is in the playbook but I disagree])
-+ Be inclusive with gendered pronouns
++ Be inclusive
+ + With gendered pronouns
+ + Acknowledge people "with a history of military service"
+ + Referencing age or disability
 + Provide specific action steps
 + Grammar
  + Write straightforward sentences.  Short, simple sentences are easier to read and understand. Keep most sentences to 20 words or less
