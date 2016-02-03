@@ -12,3 +12,6 @@ To get us started....
 - [US Web Design Standards](https://designschool.canva.com/blog/50-meticulous-style-guides-every-startup-see-launching/)
 - [A cool list of excellent style guides from various brands](https://designschool.canva.com/blog/50-meticulous-style-guides-every-startup-see-launching/)
 - [Super comprehensive list of style guides, brand guides, and front end frameworks](https://medium.com/@iamtec/a-list-of-style-guides-brand-guidelines-and-front-end-frameworks-e5bb62db91e5#.sg7dwx39n)
+- [IBM Design Language Framework](https://www.ibm.com/design/language/framework)
+- [Microsoft Inclusive Toolkit](https://www.microsoft.com/en-us/design/practice)
+- [Uber's New Brand Guide](https://brand.uber.com/)
