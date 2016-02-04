@@ -28,11 +28,10 @@ Feel free to edit these.
   - Palette
   - Combination
 
-**Sizing**
-  - 75 pt character / Center-Aligned
-
 **Templates**
-
+ - Grid components
+ - Line width - 75 pt character 
+ 
 **Tables**
 
 **Forms**
@@ -41,3 +40,7 @@ Feel free to edit these.
   - Font sizings
 
 **No Images**
+
+**508 Compliance//Acessibility**
+
+
