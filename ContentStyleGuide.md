@@ -37,7 +37,15 @@ Our goal is to give Veterans and their families the information they need to mak
  + Write straightforward sentences.  Short, simple sentences are easier to read and understand. Keep most sentences to 20 words or less
 + Capitalization
 + Acronyms
+ +Business names for programs/products (not use when possible, treat it like an acronym) 
 + Numbers (including phone numbers and percentages)
 + URLS and filenames 
 + Links
 + Vets.gov-specific terms
++ 
+
+Ideas
++ Call out specific design elements, like buttons 
++ Labeling buttons -- http://health.gov/healthliteracyonline/organize/section-4-4/
++ Write actionable labels
++ Imagery 
