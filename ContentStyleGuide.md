@@ -21,7 +21,7 @@ Our goal is to give Veterans and their families the information they need to mak
 + Address the Veteran
  + Guidance on saying "you", using second person
  + Capitalize veteran
- + Acknowledge people "with a history of military service"
+ + Acknowledge people "with a history of military service" (Note: this is a loaded statement -- think about framing)
 + Be concise
 + Use active voice
 + Write in a consistent voice and tone
