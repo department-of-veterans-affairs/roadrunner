@@ -49,3 +49,4 @@ Ideas
 + Labeling buttons -- http://health.gov/healthliteracyonline/organize/section-4-4/
 + Write actionable labels
 + Imagery 
++ add research, quotes, user feelings, etc. a la mailchimp
