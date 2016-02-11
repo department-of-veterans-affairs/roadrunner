@@ -7,40 +7,44 @@ It would be nice to use findings and quotes from usability tests.
 
 Feel free to edit these.
 
-**Typography**
-  - Typeface
-  - Sizing
-  - Pairing and Styles
-  - Spacing
+**Brand**
+  - Typography (Typeface, Type setting -- Alignment, line length, Spacing)
+  - Color
+  - Logo
+  - Thread Image
+  - No Images _Note: thinking of putting this is content section_
 
-**Design Components**
-  - Header/Footer
-  - Navigation - breadcrumb
-  - Links (currently all the colors for search links are different) 
-    _Note: General search, job search, candidate search_
-  - Search Results (3-4 lines, minimal descriptions, scanability)
-  - Buttons (actionable vs. informational)
-  - Cards (margins, padding, font size)
-  - Callout boxes (when to use them)
-  - Alerts (when to use them, should they have icons?)
+**Navigation**
+  - Breadcrumbs
+  - Cards
+  - piano keys
+  - side nav
 
-**Color**
-  - Palette
-  - Combination
+**Page Elements**
+  - Buttons
+  - Callout Box
+  - announcement/ Alerts & Notifications (log-in, GI Bill schools)
+  - Lists (Process list)
+  - Definition Block
+  - Tables 
+  - Links -- color and styling, (specify what each type of link does i.e. download, go to new page)
+**Search**
+  - Results (Vets.gov and VEC)
+  - Search Bar
 
 **Templates**
+ - Content templates
+ - Form templates _(see 18F)_
  - Grid components
- - Line width - 75 pt character 
- 
-**Tables**
+ - Footer
 
 **Forms**
-  - Text box
+  - Text box _(see 18F form controls)_
   - Dropdown
   - Font sizings
 
-**No Images**
-
-**508 Compliance//Acessibility**
-
-
+#### The anatomy of a section
+  - Thing (i.e. Color)
+    - subthings (i.e. palatte and combination)
+  - snippet
+  - accessibility information
