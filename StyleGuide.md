@@ -49,4 +49,8 @@ _I'm sort of working on an issue through this section. Please be advised that th
 
 **508 Compliance//Acessibility**
 
-
+#### The anatomy of a section
+  - Thing (i.e. Color)
+    - subthings (i.e. palatte and combination)
+  - snippet
+  - accessibility information
