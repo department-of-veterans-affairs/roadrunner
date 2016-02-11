@@ -32,11 +32,6 @@ Feel free to edit these.
   - Results (Vets.gov and VEC)
   - Search Bar
 
-<img width="1045" alt="screen shot 2016-02-09 at 1 28 01 pm" src="https://cloud.githubusercontent.com/assets/13420618/12926748/d7ad03d4-cf32-11e5-9ce1-17cd95d4dba3.png">
-        Type in text dropdown:
-        <img width="860" alt="screen shot 2016-02-09 at 1 32 41 pm" src="https://cloud.githubusercontent.com/assets/13420618/12926715/b52ece32-cf32-11e5-8a9b-b046f6e02c5a.png">
-_I'm sort of working on an issue through this section. Please be advised that this is work-in-progress_
-
 **Templates**
  - Content templates
  - Form templates _(see 18F)_
