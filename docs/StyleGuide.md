@@ -43,9 +43,10 @@ Feel free to edit these.
  - Footer
 
 **Forms & Tools**
-  - Text box _(see 18F form controls)_
+  - Text input _(see 18F form controls)_
   - Dropdown
   - Font sizings
+  - Alerts
 
 #### The anatomy of a section
   - Thing (i.e. Color)
