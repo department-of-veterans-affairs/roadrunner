@@ -1,3 +1,5 @@
+# Roadrunner Jekyll site - [![Build Status](https://travis-ci.org/department-of-veterans-affairs/roadrunner.svg?branch=master)](https://travis-ci.org/department-of-veterans-affairs/roadrunner)
+
 # Project Roadrunner
 
 #### Overview
@@ -39,7 +41,7 @@ Primary customers are the Digital Service Team and our approved partners (in-hou
 2. Clone this repository
 3. Serve the project locally
   ```
-  jekyll serve
+  bundle exec jekyll serve
   ```
 4. Build the project locally
   ```
