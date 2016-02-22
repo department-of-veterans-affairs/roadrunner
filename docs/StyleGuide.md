@@ -42,10 +42,11 @@ Feel free to edit these.
  - Grid components
  - Footer
 
-**Forms**
-  - Text box _(see 18F form controls)_
+**Forms & Tools**
+  - Text input _(see 18F form controls)_
   - Dropdown
   - Font sizings
+  - Alerts
 
 #### The anatomy of a section
   - Thing (i.e. Color)
