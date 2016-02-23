@@ -6,5 +6,44 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "us_web_design_standards",
-        "va-rr-vars"
+        "va-rr-vars",
+        "va-buttons",
+        "va-rr-footer"
 ;
+
+// Common, reusable styles =====
+body {
+	background: $va-bg-base; 
+	padding: 0;
+  margin: 0;
+  font-family: $font-sans;
+  font-weight: 500; 
+}
+
+// Text utility classes
+.va-text-uc {
+	text-transform: uppercase;
+}
+
+// Pushes text off screen, but keeps available for assistive text
+.va-text-sr {
+		position: absolute !important;
+    clip: rect(1px, 1px, 1px, 1px);
+    padding:0 !important;
+    border:0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+.va-logo-type {
+  background: transparent url(../assets/images/design/logo/logo.png) top left no-repeat;
+  background-size: contain; 
+  display: inline-block;
+  width: 164px;
+  height: 32px;
+}
+
+
+
+    
