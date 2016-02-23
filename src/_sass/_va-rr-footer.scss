@@ -1,0 +1,29 @@
+.va-rr-footer {
+	background: $va-bg-footer;
+	color: $va-text-alt;
+	font-family: inherit;
+	padding-top: rem(20px);
+	
+	h4 {
+		font-family: $font-sans;
+		// Overrides a USWDS style 
+		+ ul {
+			margin-top: 1em;
+		}
+	}
+	
+	a {
+		text-decoration: underline;
+		
+		&:link, 
+		&:visited {
+			color: $va-text-alt;
+		}	
+	}	
+}
+
+.va-rr-footer-logo-wrap {
+	background-color: $va-bg-breadcrumb;
+	text-align: center;
+	padding: rem(10px) 0;
+}

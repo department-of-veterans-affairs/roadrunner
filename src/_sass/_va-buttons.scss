@@ -1,0 +1,9 @@
+// Call to action buttons
+.va-button--cta {
+  background-color: $va-button-a;
+  text-decoration: none !important;
+  
+  &:hover {
+  	background: darken($va-button-a, 5%);
+  }
+}
