@@ -30,6 +30,9 @@ Primary customers are the Digital Service Team and our approved partners (in-hou
 - **Maintaining Existing Apps**
     + As we update the central repository, it will give project teams the ability to update for the most current version. Currently, the "most current" is just the most recent thing we built.
 
+#### Please Note: 
+
+Roadrunner includes 18F's linting tool, SCSS_lint. This tool is configured to maintain 18f's coding styleguidlines (https://pages.18f.gov/frontend/css-coding-styleguide/). DSVA recommends throroughly understanding and following these guidelines to help reduce time spent correcting linter issues downstream. 
 
 ## Getting started
 
