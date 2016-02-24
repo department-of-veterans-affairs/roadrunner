@@ -18,7 +18,11 @@ body {
 	padding: 0;
   margin: 0;
   font-family: $font-sans;
-  font-weight: 500; 
+  font-weight: 400; 
+}
+
+h1, h2, h3 {
+	font-family: "Roboto Slab";
 }
 
 // Text utility classes
