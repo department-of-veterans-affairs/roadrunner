@@ -14,29 +14,29 @@
 
 // Common, reusable styles =====
 body {
-	background: $va-bg-base; 
-	padding: 0;
+  background: $va-bg-base; 
+  padding: 0;
   margin: 0;
   font-family: $font-sans;
   font-weight: 400; 
 }
 
 h1, h2, h3, [class^=va-heading] {
-	font-family: "Roboto Slab";
+  font-family: "Roboto Slab";
 }
 
 // Text utility classes
 .va-text-sans {
-	font-family: $font-sans;
+  font-family: $font-sans;
 }
 
 .va-text-uc {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 // Pushes text off screen, but keeps available for assistive text
 .va-text-sr {
-		position: absolute !important;
+    position: absolute !important;
     clip: rect(1px, 1px, 1px, 1px);
     padding:0 !important;
     border:0 !important;
@@ -54,29 +54,27 @@ h1, h2, h3, [class^=va-heading] {
 // Home page =======
 
 .va-rr-section {
-	color: $va-text-alt-dark;
-	padding: 51px 0;
-	
-	h1, h2, h3, h4, h5, h6 {
-		margin-top:0;
-	}
+  color: $va-text-alt-dark;
+  padding: 51px 0;
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin-top:0;
+  }
 }
 
 .va-rr-jumbotron {
-	background: $va-bg-alt url(../assets/images/design/vads-crest.png) -55% 0 no-repeat;
-	color: $va-text-alt;
+  background: $va-bg-alt url(../assets/images/design/vads-crest.png) -55% 0 no-repeat;
+  color: $va-text-alt;
 }
 
 .va-rr-jumbotron-heading {
-	font-size: rem(64px);
+  font-size: rem(64px);
 }
 
 .va-rr-jumbotron-body {
-	font-size: 28px;
+  font-size: 28px;
 }
 
 .va-rr-jumbotron-cta {
-	font-size: 24px;
+  font-size: 24px;
 }
-
-    
