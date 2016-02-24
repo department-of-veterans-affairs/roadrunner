@@ -21,7 +21,7 @@ body {
   font-weight: 400; 
 }
 
-h1, h2, h3 {
+h1, h2, h3, [class^=va-heading] {
 	font-family: "Roboto Slab";
 }
 
@@ -47,6 +47,25 @@ h1, h2, h3 {
   display: inline-block;
 }
 
+// Home page =======
 
+.va-rr-jumbotron {
+	background: $va-bg-alt url(../assets/images/design/vads-crest.png) -55% 0 no-repeat;
+	color: $va-text-alt;
+	padding: 51px 0;
+}
+
+.va-rr-jumbotron-heading {
+	font-size: rem(64px);
+	margin-top:0;
+}
+
+.va-rr-jumbotron-body {
+	font-size: 28px;
+}
+
+.va-rr-jumbotron-cta {
+	font-size: 24px;
+}
 
     
