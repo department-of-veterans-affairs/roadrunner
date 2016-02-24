@@ -26,6 +26,10 @@ h1, h2, h3, [class^=va-heading] {
 }
 
 // Text utility classes
+.va-text-sans {
+	font-family: $font-sans;
+}
+
 .va-text-uc {
 	text-transform: uppercase;
 }
@@ -49,15 +53,22 @@ h1, h2, h3, [class^=va-heading] {
 
 // Home page =======
 
+.va-rr-section {
+	color: $va-text-alt-dark;
+	padding: 51px 0;
+	
+	h1, h2, h3, h4, h5, h6 {
+		margin-top:0;
+	}
+}
+
 .va-rr-jumbotron {
 	background: $va-bg-alt url(../assets/images/design/vads-crest.png) -55% 0 no-repeat;
 	color: $va-text-alt;
-	padding: 51px 0;
 }
 
 .va-rr-jumbotron-heading {
 	font-size: rem(64px);
-	margin-top:0;
 }
 
 .va-rr-jumbotron-body {
