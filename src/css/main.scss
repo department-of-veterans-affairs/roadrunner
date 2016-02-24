@@ -9,8 +9,9 @@
         "components/sidenav",
         "components/main-content",
         "va-rr-vars",
-        "va-buttons",
-        "va-rr-footer"
+        "va-rr-header",
+        "va-rr-footer",
+        "va-buttons"
 ;
 
 // Common, reusable styles =====
@@ -42,8 +43,6 @@ body {
   background: transparent url(../assets/images/design/logo/logo.png) top left no-repeat;
   background-size: contain; 
   display: inline-block;
-  width: 164px;
-  height: 32px;
 }
 
 
