@@ -1,0 +1,67 @@
+.va-rr-header {
+  background: $va-bg-nav;
+	font: 700 1.5em / 1 $font-sans;
+	height: rem(85px);
+	line-height: 1;
+	position: relative;
+	
+	.usa-grid-full {
+		height: 100%;
+		
+		&::after {
+			content: none; 
+		}
+	}
+}
+
+.va-rr-header-logo {
+	height: 45px;
+	width:  177px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.va-rr-nav-top {
+	// TO DO: Refine this to work at mobile widths
+	display: inline-block;
+	height: 100%;
+	position: relative;
+	top: 0;
+	margin-left: 200px;
+	
+	a {
+		color: $va-text-alt;
+		display: block;
+		height: 100%;
+		padding: 0 2rem;
+		text-decoration: none;
+		line-height: 3;
+
+		&:hover,
+		&:active {
+			background: $va-bg-nav-hover;
+		}
+	}
+}
+
+.va-rr-nav-top-list {
+	display: inherit;
+	height: inherit;
+	margin: 0;
+	
+	&::after {
+		content: none;
+	}
+	
+	li {
+		display: inline-block;
+		height: inherit;
+		margin: 0;
+		
+		&::before, &::after {
+			content: none;
+		}
+	}
+}

@@ -1,38 +1,26 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
+<footer class="usa-footer va-rr-footer" role="contentinfo">
+  <div class="usa-grid-full">
+	  <section class="usa-width-one-half">
+	  	<h4 class="va-text-uc">Additional Resources</h4>	  		  	
+		<ul>
+			<li><a href="https://www.vets.gov/playbook/downloads/Toward_A_Veteran_Centered_VA.pdf">Toward a Veteran-Centered VA (PDF)</a></li>
+			<li><a href="https://www.vets.gov/playbook/downloads/Voices_Of_Veterans.pdf">Voices of Veterans (PDF)</a></li>
+			<li><a href="https://playbook.cio.gov/">U.S. Digital Services Playbook</a></li>
+			<li><a href="https://playbook.cio.gov/designstandards/">U.S. Web Design Standards</a></li>
+			<li><a href="https://pages.18f.gov/accessibility/pagetitles/">Accessibility Guide</a></li>
+			<li><a href="https://github.com/department-of-veterans-affairs/roadrunner">Contribute to GitHub</a></li>
+		</ul>
+	  </section>
+	  
+      <section class="usa-width-one-half usa-end-row">
+      	<h4>Help us make it better!</h4>
+      	<p>{{ site.description }}</p>
+      	<p><a href="https://github.com/department-of-veterans-affairs/roadrunner/" class="usa-button va-button--cta">Contribute on GitHub</a></p>
+      </section>
   </div>
-
+  <div class="va-rr-footer-logo-wrap">
+  	<a href="/" class="va-logo-type"><b class="va-text-sr">Vets.gov</b></a>
+  </div>
 </footer>
+
+
