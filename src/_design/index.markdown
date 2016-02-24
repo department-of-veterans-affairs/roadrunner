@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: guide
 title:  "Design Post"
 ---
 

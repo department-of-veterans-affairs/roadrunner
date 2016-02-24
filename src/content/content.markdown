@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: guide
 title:  "Content Post"
 ---
 
