@@ -56,14 +56,21 @@ h1, h2, h3, [class^=va-heading] {
 // Home page =======
 
 .va-rr-section {
-  color: $va-text-alt-dark;
   padding: 51px 0;
   
   h1, h2, h3, h4, h5, h6 {
     margin-top:0;
+    color: $va-text-alt-dark;
+  }
+  a {
+    color: inherit;
   }
 }
 
+.va-rr-section--alt {
+  background-color: $va-bg-box-snippet;
+ }
+ 
 .va-rr-jumbotron {
   background: $va-bg-alt url(../assets/images/design/vads-crest.png) -55% 0 no-repeat;
   color: $va-text-alt;
@@ -80,3 +87,4 @@ h1, h2, h3, [class^=va-heading] {
 .va-rr-jumbotron-cta {
   font-size: 24px;
 }
+
