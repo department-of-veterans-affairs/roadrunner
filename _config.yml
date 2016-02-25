@@ -9,6 +9,8 @@ twitter_username: jekyllrb
 github_username: jekyll
 source: src
 
+repourl: "https://github.com/department-of-veterans-affairs/roadrunner/"
+
 # Build settings
 markdown: kramdown
 
