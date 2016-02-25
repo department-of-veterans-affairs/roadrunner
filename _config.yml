@@ -14,15 +14,9 @@ repourl: "https://github.com/department-of-veterans-affairs/roadrunner/"
 # Build settings
 markdown: kramdown
 
-kramdown:
-  input: GFM
-
 destination: ./_site
 
 collections:
-  getting-started:
-    output: true
-    permalink: /:collection/:path/index.html
   design:
     output: true
     permalink: /:collection/:path/index.html

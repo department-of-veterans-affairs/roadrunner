@@ -6,6 +6,8 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "us_web_design_standards",
+        "components/sidenav",
+        "components/main-content",
         "va-rr-vars",
         "va-rr-header",
         "va-rr-footer",
