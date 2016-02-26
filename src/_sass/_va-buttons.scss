@@ -8,3 +8,8 @@
   }
 }
 
+.va-button--outline {
+  background-color: transparent;
+  box-shadow: inset 0 0 0 2px $va-bg-nav;
+  color: $usa-primary;
+}
