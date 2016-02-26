@@ -52,12 +52,18 @@ $site-top:           100px;
 }
 
 // Main Content --------- //
+.wrapper {
+  outline: 3px dotted #f00;
+  //height: 1px;
+}
+
 
 .main-content {
+  background: rgba(#c0c, .5);
   @include media($medium-screen) {
     top: $site-top;
   }
-  @include position(absolute, 8rem 0 0 null);
+//  @include position(absolute, 8rem 0 0 null);
   @include padding(1em null 0);
   width: 100%;
   z-index: -1;
