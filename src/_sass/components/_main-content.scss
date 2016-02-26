@@ -8,15 +8,20 @@ $site-top:           100px;
 // Based on code by Diego Eis
 
 // Sidebar Nav --------- //
+.wrapper {
+  min-height: 100%;
+}
 
-.sidenav {
-  // @include position(fixed, $site-top null 0 0);
+.sidenav { 
+  @include position(fixed, $site-top null null null);
+  height: 100%;
+  top:0; 
   width: $width-nav-sidebar;
   border-right: 1px solid $color-gray-light;
   padding: 5rem 3rem 3rem 3rem;
   overflow: auto;
   display: none;
-  z-index: -1;
+  z-index: 1;
 
   .lt-ie9 & {
     width: 25%;
@@ -28,6 +33,7 @@ $site-top:           100px;
 
   @include media($medium-screen + $width-nav-sidebar) {
     display: block;
+    position: absolute;
   }
 }
 
@@ -53,36 +59,26 @@ $site-top:           100px;
 
 // Main Content --------- //
 .wrapper {
-  outline: 3px dotted #f00;
-  //height: 1px;
+  @include media($medium-screen + $width-nav-sidebar) {
+    position: relative;
+  }
 }
-
-
+  
 .main-content {
-  background: rgba(#c0c, .5);
   @include media($medium-screen) {
     top: $site-top;
   }
-//  @include position(absolute, 8rem 0 0 null);
+
   @include padding(1em null 0);
-  width: 100%;
-  z-index: -1;
-  .lt-ie9 & {
-    width: 75%;
-  }
 
   @include media($medium-screen + $width-nav-sidebar) {
-    width: calc(100% - #{$width-nav-sidebar});
-    .lt-ie9 & {
-      width: 75%;
-    }
+    margin-left: $width-nav-sidebar;    
   }
 }
 
 //Styleguide Content -------- //
-
 .styleguide-content {
-  margin-bottom: 5em;
+  padding-bottom: 5em;
   max-width: $site-max-width;
   @include padding(null 2em);
   position: relative;
