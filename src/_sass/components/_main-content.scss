@@ -1,6 +1,7 @@
 // Variables -------------- //
 
 $width-nav-sidebar:  250px;
+$width-nav-sidebar-sm:  40%;
 $color-grid-dark:    #727272;
 $color-grid-light:   #e3e4e5;
 $site-top:           100px;
@@ -12,17 +13,21 @@ $site-top:           100px;
   min-height: 100%;
 }
 
-.sidenav { 
-  @include position(fixed, $site-top null null null);
+.sidenav {
+  @include transform(translateX(-100%));
+  @include transition(transform 250ms ease-in);  
+  position: fixed;
   height: 100%;
   top:0; 
-  width: $width-nav-sidebar;
+  width: $width-nav-sidebar-sm;
   border-right: 1px solid $color-gray-light;
-  padding: 5rem 3rem 3rem 3rem;
-  overflow: auto;
-  display: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: $va-bg-nav-hover; 
+  
   z-index: 1;
 
+  // TO DO: Can probably delete this, but need to test
   .lt-ie9 & {
     width: 25%;
   }
@@ -31,10 +36,22 @@ $site-top:           100px;
     display: none;
   }
 
-  @include media($medium-screen + $width-nav-sidebar) {
+  @include media($medium-screen) {
+    @include transform(none);
+    background: $color-white;
     display: block;
+    padding: 5rem 3rem 3rem 3rem;
     position: absolute;
+    width: $width-nav-sidebar;
+    
+    .va-button-close {
+      display: none;
+    }
   }
+}
+
+.va-rr-menu-open {
+    @include transform(none);
 }
 
 .visual-style .sidenav .visual-style-sublist {
@@ -59,19 +76,15 @@ $site-top:           100px;
 
 // Main Content --------- //
 .wrapper {
-  @include media($medium-screen + $width-nav-sidebar) {
+  @include media($medium-screen) {
     position: relative;
   }
 }
   
-.main-content {
-  @include media($medium-screen) {
-    top: $site-top;
-  }
-
+.main-content { 
   @include padding(1em null 0);
 
-  @include media($medium-screen + $width-nav-sidebar) {
+  @include media($medium-screen) {
     margin-left: $width-nav-sidebar;    
   }
 }
@@ -89,7 +102,7 @@ $site-top:           100px;
       margin-top: 1.5em;
     }
   }
-  @media (min-width: $medium-screen + $width-nav-sidebar) {
+  @media (min-width: $medium-screen) {
     @include padding(null 3em);
   }
 }
