@@ -16,13 +16,9 @@ destination: ./_site
 exclude:
   - "Gemfile"
   - "Gemfile.lock"
-  - "_includes"
-  - "_layouts"
   - "LICENSE"
-  - "README.md"
   - "Rakefile"
-  - "_sass"
-  - "_site"
+  - "README.md"
 
 collections:
   design:
