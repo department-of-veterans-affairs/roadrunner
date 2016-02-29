@@ -14,7 +14,6 @@ markdown: kramdown
 destination: ./_site
 
 exclude:
-  - "_config.yml"
   - "Gemfile"
   - "Gemfile.lock"
   - "_includes"
