@@ -1,0 +1,36 @@
+.va-rr-breadcrumb {
+  display: none;
+
+  @include media($medium-screen) {
+    @include unstyled-list();
+    color: $color-white;
+    display: block;
+    font-size: 2rem;
+    font-weight: normal;
+    margin: auto auto auto rem(280px);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+    
+  li {
+    display: table-cell;
+    padding: 2.9rem 0 0;
+    
+    &:not(:last-child)::after {
+      color: inherit;
+      content: '\00A0>\00A0'; // \00A0 = unicode for non-breaking space
+      display: inherit;
+      margin-bottom: 0;
+      padding: 0 .5rem;
+      vertical-align: top; 
+    }
+  }
+  
+  a {
+    color: inherit;
+    display: inherit;
+  }
+}
