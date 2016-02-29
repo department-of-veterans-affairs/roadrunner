@@ -12,24 +12,20 @@
       content: none; 
     }
   }
-  
-  
-  @include media($medium-screen) {
-    .va-rr-menu-trigger {
-      display: none;
-    }
-  }
-    
-  
 }
-
+  
 .va-rr-header-logo {
   height: 45px;
   width:  177px;
+  // Next 4 lines vertically center the logo
   position: absolute;
   top: 0;
   bottom: 0;
-  margin: auto;
+  margin: auto auto auto auto;
+  
+  @include media($medium-screen) {
+    margin-left: 3.5rem;
+  }
 }
 
 .va-rr-nav-top {
