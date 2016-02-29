@@ -6,16 +6,21 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "us_web_design_standards",
-        "components/sidenav",
-        "components/main-content",
         "va-rr-vars",
         "va-rr-header",
+        "components/sidenav",
+        "components/main-content",
         "va-rr-footer",
         "va-buttons"
 ;
 
 // Common, reusable styles =====
+html, body {
+  height: 100%; // Necessary for full-height navigation
+}
+
 body {
+  @include transition(transform 250ms ease-in);
   background: $va-bg-base; 
   padding: 0;
   margin: 0;

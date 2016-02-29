@@ -9,17 +9,22 @@
       border-top: none;
     }
   }
-
+  
   a {
     border: none;
-    color: $color-base;
+    color: $color-white;
     display: block;
     font-family: $font-sans;
     line-height: 1;
     padding: 1rem 1rem 1rem 1.8rem;
 
+    
+    @include media($medium-screen) {
+      color: $color-base;
+    }
+  
     &:hover {
-      background-color: $color-gray-lightest;
+      background-color: $va-bg-nav;
       color: $color-primary;
       text-decoration: none;
     }
