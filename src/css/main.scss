@@ -41,7 +41,7 @@ h1, h2, h3, [class^=va-heading] {
   text-transform: uppercase;
 }
 
-// Pushes text off screen, but keeps available for assistive text
+// Pushes text off screen, but keeps available for assistive tech
 .va-text-sr {
     position: absolute !important;
     clip: rect(1px, 1px, 1px, 1px);
@@ -58,16 +58,28 @@ h1, h2, h3, [class^=va-heading] {
   display: inline-block;
 }
 
-// Home page =======
-
+// Generic container styles =======
 .va-rr-section {
-  color: $va-text-alt-dark;
   padding: 51px 0;
   
   h1, h2, h3, h4, h5, h6 {
     margin-top:0;
   }
+  a {
+    color: inherit;
+  }
 }
+
+.va-rr-section--alt {
+  background-color: $va-bg-box-snippet;
+}
+ 
+.va-rr-section--alt-med {
+  background-color: $va-bg-alt-med;
+  color: $va-text-alt;
+}
+ 
+// Home page =======
 
 .va-rr-jumbotron {
   background: $va-bg-alt url(../assets/images/design/vads-crest.png) -55% 0 no-repeat;
@@ -84,4 +96,24 @@ h1, h2, h3, [class^=va-heading] {
 
 .va-rr-jumbotron-cta {
   font-size: 24px;
+}
+
+.va-box-callout {
+  border: 1px solid $va-text-alt;
+  text-transform: uppercase;
+  padding: 1.5rem;
+      
+  &-heading {
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+}
+
+.va-rr-heading-separated {
+  border-bottom: 1px solid $va-text-alt;
+  font-weight: inherit;
+  padding-bottom: 2rem;
+  margin-bottom: 6rem;
 }
