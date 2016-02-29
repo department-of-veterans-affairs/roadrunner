@@ -12,6 +12,15 @@
       content: none; 
     }
   }
+  
+  
+  @include media($medium-screen) {
+    .va-rr-menu-trigger {
+      display: none;
+    }
+  }
+    
+  
 }
 
 .va-rr-header-logo {

@@ -8,17 +8,33 @@ It would be nice to use findings and quotes from usability tests.
 Feel free to edit these.
 
 **Brand**
-  - Typography (Typeface, Type setting -- Alignment, line length, Spacing)
+  - Typography 
+  - Type Setting (Including Alignment, Line Length, Spacing)
+      - Description: Readable text allows users to efficiently read and take in textual information, whereas text that is not readable turns off readers or makes it challenging for them to stay focused. The following guidelines promote good readability.
+      - Sample Image: Example like the typesetting section in USWDS
+https://playbook.cio.gov/designstandards/visual-style/#typesetting
   - Color
+      - Description: 
+      - Sample Image: 
   - Logo
-  - Thread Image
-  - No Images _Note: thinking of putting this is content section_
+      - Sample Image: 
+      ![](https://www.vets.gov/assets/images/design/logo/logo-alt.png)
 
+  - Thread Image
+      - Sample Image:
+      ![](https://www.vets.gov/assets/images/design/background/thread.png)
+  
 **Navigation**
   - Breadcrumbs
+      - Sample Image:
+      ![](https://www.vets.gov/assets/images/design/playbook/components/breadcrumbs.png)
+
   - Cards
-  - piano keys
-  - side nav
+      - Description: Card style navigation is used on topic landing pages to indicate major content areas. To keep our style and content consistent and concise, card description is limited to 100 characters.
+      - Sample Image:
+      ![](https://www.vets.gov/assets/images/design/playbook/components/breadcrumbs.png)
+  - List Navigation (Piano Keys)
+  - Side Navigation
 
 **Page Elements**
   - Buttons
@@ -27,26 +43,25 @@ Feel free to edit these.
       - It highlights contrast
       - Easy way to quickly find something without having to scan a page
   - Callout Box
-  - announcement/ Alerts & Notifications (log-in, GI Bill schools)
+  - Alerts & Notifications (log-in, GI Bill schools)
   - Lists (Process list)
   - Definition Block
   - Tables 
   - Links -- color and styling, (specify what each type of link does i.e. download, go to new page)
-**Search**
   - Results (Vets.gov and VEC)
-  - Search Bar
+  - Search
 
 **Templates**
- - Content templates
+ - Content Templates
  - Form templates _(see 18F)_
- - Grid components
+ - Grid Components
  - Footer
 
 **Forms & Tools**
   - Text input _(see 18F form controls)_
   - Dropdown
-  - Font sizings
-  - Alerts
+  - Form Sizings
+  - Form Alerts
 
 #### The anatomy of a section
   - Thing (i.e. Color)

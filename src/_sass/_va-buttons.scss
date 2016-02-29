@@ -7,3 +7,18 @@
   	background: darken($va-button-a, 5%);
   }
 }
+
+.va-button-close {
+  background-color: transparent;
+  padding: 0;
+  width: auto;
+  
+  &:hover {
+    background-color: inherit;
+  }
+}
+
+.va-rr-menu-trigger {
+  display: inline-block;
+  margin: 2rem;
+}
