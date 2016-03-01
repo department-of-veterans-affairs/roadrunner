@@ -19,6 +19,7 @@ exclude:
   - "LICENSE"
   - "Rakefile"
   - "README.md"
+  - "vendor"
 
 collections:
   design:
