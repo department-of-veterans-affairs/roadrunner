@@ -51,5 +51,3 @@ Primary customers are the Digital Service Team and our approved partners (in-hou
 ## License
 
 [The MIT License (MIT)](LICENSE.md)
-
-Copyright © 2015 [Chloi Inc.](http://chloi.io)
