@@ -11,7 +11,7 @@ repourl: "https://github.com/department-of-veterans-affairs/roadrunner/"
 # Build settings
 markdown: kramdown
 
-destination: ./_site
+destination: ./_site/roadrunner
 
 exclude:
   - "Gemfile"
