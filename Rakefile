@@ -5,6 +5,16 @@ task :build do
   sh "bundle exec jekyll build"
 end
 
+desc "Serve the website"
+task :serve do
+  sh "bundle exec jekyll serve"
+end
+
+desc "Cleanup the website"
+task :clean do
+  sh "bundle exec jekyll clean"
+end
+
 namespace :tests do
   task :all => [ :build, :all_nobuild ]
 
