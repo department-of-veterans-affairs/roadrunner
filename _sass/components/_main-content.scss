@@ -50,6 +50,12 @@ $site-top:           100px;
   }
 }
 
+@include media($medium-screen) {
+  .sidenav--home {
+    display: none;
+  }
+}
+
 .va-rr-menu-open {
     @include transform(none);
 }

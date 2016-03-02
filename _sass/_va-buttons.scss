@@ -20,5 +20,11 @@
 
 .va-rr-menu-trigger {
   display: inline-block;
-  margin: 2rem;
+  margin: 2.6rem 2rem 2rem;
+}
+
+@include media($medium-screen) {
+  .va-rr-menu-trigger {
+    display: none;
+  }
 }
