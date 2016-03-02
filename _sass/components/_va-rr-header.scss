@@ -34,13 +34,17 @@
   height: 100%;
   position: relative;
   top: 0;
-  margin-left: 200px;
+ 
+  
+  @include media($medium-screen) {
+     margin-left: rem(230px);
+  }
   
   a {
     color: $va-text-alt;
     display: block;
     height: 100%;
-    padding: 0 2rem;
+    padding: .4rem 2rem;
     text-decoration: none;
     line-height: 3;
 
