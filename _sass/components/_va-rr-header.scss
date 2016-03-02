@@ -21,23 +21,18 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  margin: auto auto auto auto;
-  
-  @include media($medium-screen) {
-    margin-left: 3.5rem;
-  }
+  margin: auto auto auto 3.5rem;
 }
 
 .va-rr-nav-top {
-  // TO DO: Refine this to work at mobile widths
-  display: inline-block;
-  height: 100%;
-  position: relative;
-  top: 0;
- 
+  display: none;
   
   @include media($medium-screen) {
-     margin-left: rem(230px);
+    display: inline-block;
+    height: 100%;
+    margin-left: rem(230px);
+    position: relative;
+    top: 0; 
   }
   
   a {
