@@ -1,0 +1,14 @@
+<header class="va-rr-header">
+  <div class="va-logo-type va-rr-header-logo">
+    <b class="va-text-sr">Vets.gov</b>
+  </div>
+  <nav class="va-rr-nav-top">
+    <ul class="va-rr-nav-top-list">
+    {% for page in site.pages %}
+      {% if page.title %}
+        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </nav>
+</header>
