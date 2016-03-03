@@ -1,5 +1,5 @@
 .va-rr-header {
-  background: $va-bg-nav;
+  background: $color-primary-darkest;
   font: 700 1.5em / 1 $font-sans;
   height: rem(85px);
   line-height: 1;
@@ -36,7 +36,7 @@
   }
   
   a {
-    color: $va-text-alt;
+    color: $color-white;
     display: block;
     height: 100%;
     padding: .4rem 2rem;
@@ -45,7 +45,7 @@
 
     &:hover,
     &:active {
-      background: $va-bg-nav-hover;
+      background: $color-primary-darker;
     }
   }
 }

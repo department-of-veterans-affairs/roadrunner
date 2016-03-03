@@ -1,6 +1,6 @@
 .va-rr-footer {
-  background: $va-bg-alt;
-  color: $va-text-alt;
+  background: $color-primary-darker;
+  color: $color-white;
   font-family: inherit;
   padding-top: rem(20px);
   
@@ -17,7 +17,7 @@
     
     &:link, 
     &:visited {
-      color: $va-text-alt;
+      color: $color-white;
     }  
   }  
 }
@@ -28,7 +28,7 @@
 }
 
 .va-rr-footer-logo-wrap {
-  background-color: $va-bg-breadcrumb;
+  background-color: $color-primary-darkest;
   text-align: center;
   padding: rem(10px) 0;
 }
