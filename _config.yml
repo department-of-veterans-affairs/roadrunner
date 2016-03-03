@@ -3,18 +3,23 @@ title: Roadrunner
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Roadrunner was created by designers and developers of the Digital Services at the VA to standardize our projects, scale our teams and accelerate delivery. For any feedback, please create an issue on our GitHub repository.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username: jekyll
-source: src
+baseurl: "/roadrunner" # the subpath of your site, e.g. /blog
+url: "https://department-of-veterans-affairs.github.io/"
 
 repourl: "https://github.com/department-of-veterans-affairs/roadrunner/"
 
 # Build settings
 markdown: kramdown
 
-destination: ./_site
+destination: ./_site/roadrunner
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "LICENSE"
+  - "Rakefile"
+  - "README.md"
+  - "vendor"
 
 collections:
   design:
