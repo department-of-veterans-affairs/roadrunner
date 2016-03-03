@@ -21,7 +21,7 @@ html, body {
 
 body {
   @include transition(transform 250ms ease-in);
-  background: $va-bg-base; 
+  background: $color-white; 
   padding: 0;
   margin: 0;
   font-family: $font-sans;
@@ -75,15 +75,15 @@ h1, h2, h3, [class^=va-heading] {
 }
  
 .va-rr-section--alt-med {
-  background-color: $va-bg-alt-med;
-  color: $va-text-alt;
+  background-color: $color-primary;
+  color: $color-white;
 }
  
 // Home page =======
 
 .va-rr-jumbotron {
-  background: $va-bg-alt url(../assets/images/design/vads-crest.png) -55% 0 no-repeat;
-  color: $va-text-alt;
+  background: $color-primary-darker url(../assets/images/design/vads-crest.png) -55% 0 no-repeat;
+  color: $color-white;
 }
 
 .va-rr-jumbotron-heading {
@@ -99,7 +99,7 @@ h1, h2, h3, [class^=va-heading] {
 }
 
 .va-box-callout {
-  border: 1px solid $va-text-alt;
+  border: 1px solid $color-white;
   text-transform: uppercase;
   padding: 1.5rem;
       
@@ -112,7 +112,7 @@ h1, h2, h3, [class^=va-heading] {
 }
 
 .va-rr-heading-separated {
-  border-bottom: 1px solid $va-text-alt;
+  border-bottom: 1px solid $color-white;
   font-weight: inherit;
   padding-bottom: 2rem;
   margin-bottom: 6rem;
