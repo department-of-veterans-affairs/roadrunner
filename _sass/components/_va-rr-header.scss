@@ -12,39 +12,34 @@
       content: none; 
     }
   }
-  
-  
-  @include media($medium-screen) {
-    .va-rr-menu-trigger {
-      display: none;
-    }
-  }
-    
-  
 }
-
+  
 .va-rr-header-logo {
   height: 45px;
   width:  177px;
+  // Next 4 lines vertically center the logo
   position: absolute;
   top: 0;
   bottom: 0;
-  margin: auto;
+  margin: auto auto auto 3.5rem;
 }
 
 .va-rr-nav-top {
-  // TO DO: Refine this to work at mobile widths
-  display: inline-block;
-  height: 100%;
-  position: relative;
-  top: 0;
-  margin-left: 200px;
+  display: none;
+  
+  @include media($medium-screen) {
+    display: inline-block;
+    height: 100%;
+    margin-left: rem(230px);
+    position: relative;
+    top: 0; 
+  }
   
   a {
     color: $va-text-alt;
     display: block;
     height: 100%;
-    padding: 0 2rem;
+    padding: .4rem 2rem;
     text-decoration: none;
     line-height: 3;
 
