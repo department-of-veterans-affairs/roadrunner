@@ -21,7 +21,11 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  margin: auto auto auto 3.5rem;
+  margin: auto;
+  
+  @include media($medium-screen) {
+    margin-left: rem(40px);
+  }
 }
 
 .va-rr-nav-top {
