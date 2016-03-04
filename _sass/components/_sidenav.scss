@@ -2,12 +2,8 @@
   @include unstyled-list();
 
   li {
-    border-top: 1px solid $color-gray;
+    border: none;
     font-size: $h4-font-size;
-
-    &:first-child {
-      border-top: none;
-    }
   }
   
   a {
@@ -17,12 +13,7 @@
     font-family: $font-sans;
     line-height: 1;
     padding: 1rem 1rem 1rem 1.8rem;
-
-    
-    @include media($medium-screen) {
-      color: $color-base;
-    }
-  
+ 
     &:hover {
       background-color: $va-bg-nav;
       color: $color-primary;
