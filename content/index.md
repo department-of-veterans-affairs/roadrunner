@@ -1,6 +1,7 @@
 ---
 layout: guide
-title:  "Content Post"
+title:  "Content"
+order: 2
 ---
 
 #Vets.gov Content Style Guide

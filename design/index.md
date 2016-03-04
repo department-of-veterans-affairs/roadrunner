@@ -1,6 +1,7 @@
 ---
 layout: guide
-title:  "Design Post"
+title:  "Design"
+order: 1
 ---
 
 # Style Guide

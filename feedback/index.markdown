@@ -1,6 +1,7 @@
 ---
 layout: guide
-title:  "Feedback Post"
+title:  "Feedback"
+order: 3
 ---
 
 Feedback post
