@@ -1,25 +1,22 @@
 ---
 layout: guide
 title:  "Templates"
+description: "Patterns for commonly used webpages and forms on vets.gov"
 ---
 
-#Templates
--Title
--Description
-
-##Form Templates
+## Form Templates
 - Component Element 
 - Component Description 
 - Component Code
 - Component 508
 
-##Grid
+## Grid
 - Component Element 
 - Component Description 
 - Component Code
 - Component 508
 
-##Footer
+## Footer
 - Component Element 
 - Component Description 
 - Component Code

@@ -1,0 +1,10 @@
+{% if page.title == 'Templates' %}
+  {% assign templateclass = 'templates' %}
+{% elsif page.title == 'Brand' %}
+  {% assign templateclass = 'brand' %}
+{% endif %}
+
+<header class="va-rr-sg-header va-rr-sg-header--{{templateclass}}">
+  <h1 class="va-rr-sg-title">{{page.title}}</h1>
+  <p class="va-rr-sg-description">{{page.description}}</p>
+</header>

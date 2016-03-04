@@ -2,14 +2,17 @@
 
 {% include internal-header.html %}
 
-<div class="wrapper">
+<main class="wrapper">
   {% include sidenav.html %}
 
-  <div class="main-content" id="main-content">
+  <article class="main-content" id="main-content">
+    {% include section-title-box.html %}
+
     <div class="styleguide-content usa-content">
         {{ content }}
     </div>
-  </div>
-</div>
+  </article>
+  
+</main>
 
 {% include footer.html %}

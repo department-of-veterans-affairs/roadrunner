@@ -14,8 +14,8 @@
             {% for collection in site.collections %}
               {% if collection.label == current_label[0] %}
                 <ul class="">
-                {% for documents in collection.docs %}
-                  <li><a href="#">{{documents.title}}</a></li>
+                {% for document in collection.docs %}
+                  <li><a href="{{document.url|prepend: site.baseurl}}">{{document.title}}</a></li>
                 {% endfor %}
                 </ul>
               {% endif %}         
