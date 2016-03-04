@@ -4,23 +4,26 @@
   </a>
   <nav>
     <ul class="usa-sidenav-list">
-      {% include tabbed-nav.html %}
-      <li>
-        <a {% if current[1] == 'getting-started' %}class="usa-current"{% endif %} href="#">Example</a>
-      </li>
-      <li>
-        <a {% if current[1] == 'visual-style' %}class="usa-current"{% endif %} href="#">Example Primary Item</a>
-        <ul class="usa-sidenav-sub_list visual-style-sublist">
-          <li>
-            <a href="#">example item</a>
-            <ul class="usa-sidenav-sub_list">
-              <li>
-                <a href="#">Example Subitem</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li> 
+    {% assign current = page.title %} 
+    {% assign current_label = current|downcase|split:" " %}
+      {% for page in site.pages %}
+        {% if page.title %}
+        <li>
+          <a {% if page.title == current %}class="usa-current"{% endif %} href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% if page.title == current %}         
+            {% for collection in site.collections %}
+              {% if collection.label == current_label[0] %}
+                <ul class="">
+                {% for documents in collection.docs %}
+                  <li><a href="#">{{documents.title}}</a></li>
+                {% endfor %}
+                </ul>
+              {% endif %}         
+            {% endfor %}
+          {% endif %}
+        </li>   
+       {% endif %}
+      {% endfor %}
     </ul>
   </nav>
 </aside>

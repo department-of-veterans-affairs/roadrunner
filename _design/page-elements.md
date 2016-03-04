@@ -1,6 +1,6 @@
 ---
 layout: guide
-title:  "Test Design Post"
+title:  "Page Elements"
 ---
 
 #Page Elements
