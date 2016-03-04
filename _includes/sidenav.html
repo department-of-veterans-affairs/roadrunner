@@ -9,7 +9,7 @@
       {% for page in site.pages %}
         {% if page.title %}
         <li>
-          <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          <a {% if page.title == current %}class="usa-current"{% endif %} href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% if page.title == current %}         
             {% for collection in site.collections %}
               {% if collection.label == current_label[0] %}
@@ -22,34 +22,8 @@
             {% endfor %}
           {% endif %}
         </li>   
-           
-           
-           
-          
-          
-        {% endif %}
+       {% endif %}
       {% endfor %}
-
-       
-
-     
-    
-      <li>
-        <a {% if current[1] == 'getting-started' %}class="usa-current"{% endif %} href="#">Example</a>
-      </li>
-      <li>
-        <a {% if current[1] == 'visual-style' %}class="usa-current"{% endif %} href="#">Example Primary Item</a>
-        <ul class="usa-sidenav-sub_list visual-style-sublist">
-          <li>
-            <a href="#">example item</a>
-            <ul class="usa-sidenav-sub_list">
-              <li>
-                <a href="#">Example Subitem</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li> 
     </ul>
   </nav>
 </aside>
