@@ -85,14 +85,35 @@ $site-top:           100px;
 }
   
 .main-content { 
-  @include padding(1em null 0);
-
   @include media($medium-screen) {
     margin-left: $width-nav-sidebar;    
   }
 }
 
 //Styleguide Content -------- //
+.va-rr-sg-header {
+  background: $va-rr-templates; // TODO: Delete this line
+  color: $color-white;
+  margin-bottom: 3em;
+  padding: 2em;
+  
+  @media (min-width: $medium-screen) {
+    @include padding(null 3em 200px);
+  }
+}
+.va-rr-sg-header--templates {
+  background-color: $va-rr-templates;
+}
+
+.va-rr-sg-title {
+  margin: 0;
+  font-weight: normal;
+}
+.va-rr-sg-description {
+  margin-top: 3rem;
+}
+
+
 .styleguide-content {
   padding-bottom: 5em;
   max-width: $site-max-width;
