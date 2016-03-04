@@ -20,11 +20,9 @@ $site-top:           100px;
   height: 100%;
   top:0; 
   width: $width-nav-sidebar-sm;
-  border-right: 1px solid $color-gray-light;
   overflow-x: hidden;
   overflow-y: auto;
-  background: $va-bg-nav-hover; 
-  
+  background: $va-bg-sidenav; 
   z-index: 1;
 
   // TO DO: Can probably delete this, but need to test
@@ -38,7 +36,6 @@ $site-top:           100px;
 
   @include media($medium-screen) {
     @include transform(none);
-    background: $color-white;
     display: block;
     padding: 5rem 3rem 3rem 3rem;
     position: absolute;
