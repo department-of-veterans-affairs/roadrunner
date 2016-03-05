@@ -96,10 +96,14 @@ $site-top:           100px;
   color: $color-white;
   margin-bottom: 3em;
   padding: 2em;
+  height: 420px;
   
   @media (min-width: $medium-screen) {
     @include padding(null 3em 200px);
   }
+}
+.va-rr-sg-header--branding {
+  background-color: $va-rr-brand;
 }
 .va-rr-sg-header--templates {
   background-color: $va-rr-templates;

@@ -3,10 +3,6 @@ layout: guide
 title:  "Branding"
 ---
 
-#Branding
--Title
--Description
-
 ##Typography
 - Component Element 
 - Component Description 
