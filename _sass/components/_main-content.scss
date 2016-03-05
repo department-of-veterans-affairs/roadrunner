@@ -91,6 +91,10 @@ $site-top:           100px;
 }
 
 //Styleguide Content -------- //
+.styleguide-content h2 {
+  color: $color-primary-darker;
+}
+
 .va-rr-sg-header {
   background: $va-rr-templates; // TODO: Delete this line
   color: $color-white;
@@ -117,7 +121,6 @@ $site-top:           100px;
   margin-top: 3rem;
 }
 
-
 .styleguide-content {
   padding-bottom: 5em;
   max-width: $site-max-width;
@@ -132,5 +135,32 @@ $site-top:           100px;
   }
   @media (min-width: $medium-screen) {
     @include padding(null 3em);
+  }
+}
+
+// Branding page =======
+
+// Typography section
+.va-rr-typo-sample-wrapper {
+  @include clearfix;
+  background: lilac;
+  clear: both;
+}
+
+.va-rr-typo-sample {
+  font-size: rem(15px);
+}
+.va-rr-typo-sample--xxxl {
+  font-size: rem(140px);
+}
+
+@media (min-width: $medium-screen) {
+  .va-rr-typo-sample-wrapper {
+    padding-top: 70px;
+  }
+  .va-rr-typo-sample--xxxl {
+    font-size: rem(140px);
+    float: left;
+    margin: -70px 20px 0 0;
   }
 }
