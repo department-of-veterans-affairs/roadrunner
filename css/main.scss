@@ -37,8 +37,18 @@ h1, h2, h3, [class^=va-heading] {
   font-family: $font-sans;
 }
 
+.va-text-serif {
+  font-family: $font-headings;
+}
+
 .va-text-uc {
   text-transform: uppercase;
+}
+
+.va-heading--alt {
+  border-bottom: 1px solid $color-gray-light;
+  max-width: 53rem; 
+  padding-bottom: .5em;
 }
 
 // Pushes text off screen, but keeps available for assistive tech
