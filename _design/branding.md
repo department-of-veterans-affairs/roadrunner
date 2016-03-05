@@ -32,8 +32,6 @@ Inspired by twentieth-century American gothic typeface design, its slender but o
 
 Roboto Slab is an open-source slab serif typeface based on Roboto. With only four variations of weight, Roboto Slab is appropriate for headers and can be paired with other san serifs. Roboto Slab is used in the breadcrumb and title headers throughout Vets.gov to convey a friendly and welcoming gesture to users.
 
-
-
 ##Typesetting
 - Component Element 
 - Component Description 
