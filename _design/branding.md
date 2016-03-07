@@ -32,11 +32,6 @@ Inspired by twentieth-century American gothic typeface design, its slender but o
 
 Roboto Slab is an open-source slab serif typeface based on Roboto. With only four variations of weight, Roboto Slab is appropriate for headers and can be paired with other san serifs. Roboto Slab is used in the breadcrumb and title headers throughout Vets.gov to convey a friendly and welcoming gesture to users.
 
-- Component Element 
-- Component Description 
-- Component Code
-- Component 508
-
 ## Typesetting
 
 Readable text allows users to efficiently read and take in textual information, whereas text that is not readable turns off readers or makes it challenging for them to stay focused. The following guidelines promote good readability.
