@@ -108,22 +108,3 @@ h1, h2, h3, [class^=va-heading] {
   font-size: 24px;
 }
 
-.va-box-callout {
-  border: 1px solid $va-text-alt;
-  text-transform: uppercase;
-  padding: 1.5rem;
-      
-  &-heading {
-    display: block;
-    font-size: 36px;
-    font-weight: bold;
-    line-height: 1.2;
-  }
-}
-
-.va-rr-heading-separated {
-  border-bottom: 1px solid $va-text-alt;
-  font-weight: inherit;
-  padding-bottom: 2rem;
-  margin-bottom: 6rem;
-}

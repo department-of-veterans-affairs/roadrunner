@@ -91,8 +91,10 @@ $site-top:           100px;
 }
 
 //Styleguide Content -------- //
-.styleguide-content h2 {
-  color: $color-primary-darker;
+.styleguide-content {
+  h2, h3, h4 {
+    color: $color-primary-darker;
+  }
 }
 
 .va-rr-sg-header {
@@ -162,5 +164,62 @@ $site-top:           100px;
     font-size: rem(140px);
     float: left;
     margin: -70px 20px 0 0;
+  }
+}
+
+.va-box-callout {
+  border: 1px solid $va-text-alt;
+  text-transform: uppercase;
+  padding: 1.5rem;
+      
+  &-heading {
+    display: block;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+}
+
+.va-rr-heading-separated {
+  border-bottom: 1px solid $va-text-alt;
+  font-weight: inherit;
+  padding-bottom: 2rem;
+  margin-bottom: 6rem;
+}
+
+.va-rr-example,
+.va-rr-blockquote {
+  font-family: $font-sans;
+  margin-top: rem(30px);
+  
+  h3,h4,h5,h6 {
+    font-family: inherit;
+  }
+}
+
+.va-rr-blockquote {
+  border-left: 2px solid $color-primary;
+  padding-left: 1rem;
+} 
+
+
+.va-rr-help-text {
+  border-top: 2px solid $color-primary;
+  color: $color-primary;
+  font-size: rem(10px);
+  padding-top: rem(10px);
+  text-align: center; 
+}
+
+
+// Lists =======
+
+.va-rr-nobullet {
+  list-style: none;
+  
+  & li::before {
+    display: list-item;
+    content: '';
+    padding: 0;
   }
 }
