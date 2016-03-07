@@ -102,10 +102,10 @@ $site-top:           100px;
   color: $color-white;
   margin-bottom: 3em;
   padding: 2em;
-  height: 420px;
   
   @media (min-width: $medium-screen) {
     @include padding(null 3em 200px);
+    height: 420px;
   }
 }
 .va-rr-sg-header--branding {
@@ -140,9 +140,9 @@ $site-top:           100px;
   }
 }
 
-// Branding page =======
-
-// Typography section
+// Samples & examples ======
+// 
+// Branding > Typography section
 .va-rr-typo-sample-wrapper {
   @include clearfix;
   background: lilac;
@@ -167,19 +167,6 @@ $site-top:           100px;
   }
 }
 
-.va-box-callout {
-  border: 1px solid $va-text-alt;
-  text-transform: uppercase;
-  padding: 1.5rem;
-      
-  &-heading {
-    display: block;
-    font-size: 36px;
-    font-weight: bold;
-    line-height: 1.2;
-  }
-}
-
 .va-rr-heading-separated {
   border-bottom: 1px solid $va-text-alt;
   font-weight: inherit;
@@ -201,7 +188,6 @@ $site-top:           100px;
   border-left: 2px solid $color-primary;
   padding-left: 1rem;
 } 
-
 
 .va-rr-help-text {
   border-top: 2px solid $color-primary;
