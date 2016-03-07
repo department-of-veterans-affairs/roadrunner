@@ -64,7 +64,6 @@ Note: Gray and primary blue text color is for hover.
           <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </span>
         </a>
       </li>
-   
-      </ul>
-    </aside>
+    </ul>
+  </aside>
 </div>

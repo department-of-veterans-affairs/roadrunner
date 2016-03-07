@@ -1,4 +1,4 @@
-.usa-sidenav-list {
+.va-rr-sidenav-list {
   @include unstyled-list();
 
   li {
@@ -37,7 +37,7 @@
   }
 }
 
-.usa-sidenav-sub_list {
+.va-rr-sidenav-sub_list {
   margin: 0;
   width: 100%;
 
@@ -57,7 +57,7 @@
     padding-left: 2.8rem;
   }
 
-  .usa-sidenav-sub_list {
+  .va-rr-sidenav-sub_list {
     a {
       padding-left: 3.8rem;
     }
