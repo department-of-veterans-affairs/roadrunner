@@ -56,11 +56,119 @@ Roboto Slab is an open-source slab serif typeface based on Roboto. With only fou
 - Component Code
 - Component 508
 
-##Color
-- Component Element 
-- Component Description 
-- Component Code
-- Component 508
+## Color
+
+This palette is designed to support a range of distinct visual styles that continue to feel connected. The intent of the palette is to convey a warm and open American spirit, with bright saturated tints of blue, grounded in sophisticated deeper shades of cool blues and grays. These colors — combined with clear hierarchy, good information design, and ample white space — should leave users feeling welcomed and in good hands.
+
+This is a simple, minimalist color palette. Shades of blue dominate, providing a neutral backdrop on which brighter shades, clean type treatment, and bright white content areas "pop" on the page.
+
+
+### Primary 
+
+This palette’s primary colors are blue, gray, and white. Blue is commonly associated with trust, confidence, and sincerity; it is also used to represent calmness and responsibility.
+
+<div class="usa-grid-full">
+  <div class="va-rr-swatch-wrap usa-width-one-third">
+    <svg class="va-rr-swatch" viewBox="0 0 200 200">
+      <rect x="0" y="0" width="200" height="200" fill="#0071bc"></rect>
+    </svg>
+    <b>Primary</b>
+    <span>Hex: <code>#0071bc</code></span>
+  </div>
+
+  <div class="va-rr-swatch-wrap usa-width-one-third">
+    <svg class="va-rr-swatch" viewBox="0 0 200 200">
+      <rect x="0" y="0" width="200" height="200" fill="#205493"></rect>
+    </svg>
+    <b>Primary-darker</b>
+    <span>Hex: <code>#205493</code></span>
+  </div>
+
+  <div class="va-rr-swatch-wrap usa-width-one-third">
+    <svg class="va-rr-swatch" viewBox="0 0 200 200">
+      <rect x="0" y="0" width="200" height="200" fill="#112e51"></rect>
+    </svg>
+    <b>Primary-darkest</b>
+    <span>Hex: <code>#112e51</code></span>
+  </div>
+</div>
+
+<div class="usa-grid-full">
+  <div class="va-rr-swatch-wrap usa-width-one-third">
+    <svg class="va-rr-swatch" viewBox="0 0 200 200">
+      <rect x="0" y="0" width="200" height="200" fill="#323a45"></rect>
+    </svg>
+    <b>Gray-dark</b>
+    <span>Hex: <code>#323a45</code></span>
+  </div>
+  
+  <div class="va-rr-swatch-wrap usa-width-one-third">
+    <svg class="va-rr-swatch" viewBox="0 0 200 200">
+      <rect x="0" y="0" width="200" height="200" fill="#f1f1f1"></rect>
+    </svg>
+    <b>Gray-lightest</b>
+    <span>Hex: <code>#f1f1f1</code></span>
+  </div>
+  
+  <div class="va-rr-swatch-wrap usa-width-one-third">
+    <svg class="va-rr-swatch va-rr-swatch--alt" viewBox="0 0 200 200">
+      <rect x="0" y="0" width="200" height="200" fill="#ffffff" stroke="#cccccc"></rect>
+    </svg>
+    <b>White</b>
+    <span>Hex: <code>#ffffff</code></span>
+  </div>
+</div>
+
+### Secondary 
+
+<div class="usa-grid-full">
+  <div class="va-rr-swatch-wrap usa-width-one-third">
+    <svg class="va-rr-swatch" viewBox="0 0 200 200">
+      <rect x="0" y="0" width="200" height="200" fill="#fac922"></rect>
+    </svg>
+    <b>Gold</b>
+    <span>Hex: <code>#fac922</code></span>
+  </div>
+  
+  <div class="va-rr-swatch-wrap usa-width-one-third">
+    <svg class="va-rr-swatch" viewBox="0 0 200 200">
+      <rect x="0" y="0" width="200" height="200" fill="#2e8540"></rect>
+    </svg>
+    <b>Green</b>
+    <span>Hex: <code>#2e8540</code></span>
+  </div>
+</div>
+
+### Tertiary
+
+These colors are used primarily for content-specific needs, such as alerts and callout information. They should never overpower the primary colors.
+
+<div class="usa-grid-full">
+  <div class="va-rr-swatch-wrap usa-width-one-third">
+    <svg class="va-rr-swatch" viewBox="0 0 200 200">
+      <rect x="0" y="0" width="200" height="200" fill="#e1f3f8"></rect>
+    </svg>
+    <b>Primary-alt-lightest</b>
+    <span>Hex: <code>#e1f3f8</code></span>
+  </div>
+  
+  <div class="va-rr-swatch-wrap usa-width-one-third">
+    <svg class="va-rr-swatch" viewBox="0 0 200 200">
+      <rect x="0" y="0" width="200" height="200" fill="#e7f4e4"></rect>
+    </svg>
+    <b>Green-lightest</b>
+    <span>Hex: <code>#e7f4e4</code></span>
+  </div>
+  
+  <div class="va-rr-swatch-wrap usa-width-one-third">
+    <svg class="va-rr-swatch va-rr-swatch--alt" viewBox="0 0 200 200">
+      <rect x="0" y="0" width="200" height="200" fill="#f9dede"></rect>
+    </svg>
+    <b>Secondary-lightest</b>
+    <span>Hex: <code>#f9dede</code></span>
+  </div>
+</div>
+
 
 ##Logo
 - Component Element 
