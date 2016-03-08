@@ -194,14 +194,26 @@ These colors are used primarily for content-specific needs, such as alerts and c
 </div>
 
 
-##Logo
-- Component Element 
-- Component Description 
-- Component Code
-- Component 508
+## Logo
+
+![Vets dot gov Logo, navy](../../assets/images/design/logo/logo-alt.png)
+<a href="https://github.com/department-of-veterans-affairs/roadrunner/blob/master/assets/images/design/logo/logo-alt.png" class="usa-button va-button--cta" alt="Vets dot gov logo, Dark">View Logo - Dark</a>
+
+<div class="va-bg-color-primary-darkest">
+  <img src="../../assets/images/design/logo/logo.png" alt="Vets dot gov logo, Dark">
+</div>
+
+<a href="https://github.com/department-of-veterans-affairs/roadrunner/blob/master/assets/images/design/logo/logo.png" class="usa-button va-button--cta" alt="Vets dot gov logo, white">View Logo - White</a>
+
+<div class="va-bg-color-primary-darkest">
+  <img src="https://www.vets.gov/assets/images/design/logo/logo-hover.png" alt="Vets dot gov logo, hover state">
+</div>
+
+<a href="https://github.com/department-of-veterans-affairs/roadrunner/blob/master/assets/images/design/logo/logo-hover.png" class="usa-button va-button--cta" alt="Vets dot gov logo, hover state">View Logo - Hover</a>
+
 
 ##Thread Image
-- Component Element 
-- Component Description 
-- Component Code
-- Component 508
+
+![Thread Image](https://www.vets.gov/assets/images/design/background/thread.png)
+
+<a href="https://github.com/department-of-veterans-affairs/roadrunner/tree/master/assets/images/design/background" class="usa-button va-button--cta">Thread Image (AI file)</a>
