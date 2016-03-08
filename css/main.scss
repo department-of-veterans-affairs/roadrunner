@@ -97,11 +97,13 @@ h1, h2, h3, [class^=va-heading] {
 }
 
 .va-rr-jumbotron-heading {
-  font-size: rem(64px);
+  font-size: rem(50px);
 }
 
 .va-rr-jumbotron-body {
-  font-size: 28px;
+  font-size: 24px;
+  font-weight: 200;
+  width: 83rem;
 }
 
 .va-rr-jumbotron-cta {
