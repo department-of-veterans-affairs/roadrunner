@@ -166,6 +166,21 @@ $site-top:           100px;
     margin: -70px 20px 0 0;
   }
 }
+// Grids =======
+.va-rr-grid-example {
+  color: $color-white;
+  margin-bottom: 2em;
+  text-align: center;
+  
+  .usa-grid {
+    background-color: $color-gray-lightest;
+    padding: 10px;
+  }
+  [class*=usa-width] {
+    background-color: #727272;
+    padding: 10px; 
+  }
+}
 
 // Colors =======
 
