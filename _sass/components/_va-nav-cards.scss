@@ -1,0 +1,45 @@
+// Styles for card navigation elements
+
+.va-cards {
+  @include unstyled-list();
+}
+
+.va-card {
+  margin: 0;
+  height: auto;
+  
+  a {
+    padding: 1em 1.15em;
+    margin: 0 -0.9375rem;
+    border-bottom: 2px solid rgba(255,255,255,0.3);
+    color: #fff;
+    display: block;
+    font-weight: normal;
+    text-decoration: none;
+    background: #205493;
+    
+    &:active,
+    &:hover,
+    &:focus {
+      background-color: #0071bc;
+      box-shadow: 0 0 5px rgba(0,0,0,0.35);
+    }
+    @media (min-width: $medium-screen) {
+      height: 10em;
+      padding: .45em .75em;
+      border-bottom: none;
+      text-align: left;
+      border-radius: .2em;
+      margin: 0 0 .25em 0;
+    }
+  }
+}
+.va-card-title {
+  font: 700 1.35em / 1 $font-sans;
+  margin: 0;
+  padding: 0 0 .25em 0;
+}
+
+
+
+
