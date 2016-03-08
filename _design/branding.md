@@ -32,24 +32,48 @@ Inspired by twentieth-century American gothic typeface design, its slender but o
 
 Roboto Slab is an open-source slab serif typeface based on Roboto. With only four variations of weight, Roboto Slab is appropriate for headers and can be paired with other san serifs. Roboto Slab is used in the breadcrumb and title headers throughout Vets.gov to convey a friendly and welcoming gesture to users.
 
-##Typesetting
-- Component Element 
-- Component Description 
-- Component Code
-- Component 508
+## Typesetting
 
-##Alignment
-- Component Element 
-- Component Description 
-- Component Code
-- Component 508
+Readable text allows users to efficiently read and take in textual information, whereas text that is not readable turns off readers or makes it challenging for them to stay focused. The following guidelines promote good readability.
 
-##Line Length
-- Component Element 
-- Component Description 
-- Component Code
-- Component 508
+### Heading
 
+Content heading 1 and 2 are reserved for the vets.gov header and breadcrumb navigation.
+
+<div class="va-text-sans">
+  <h3 class="va-text-sans">Heading 3</h3>
+  <h4 class="va-text-sans">Heading 4</h4>
+  <h5 class="va-text-sans">Heading 5</h5>
+  <h6 class="va-text-sans">Heading 6</h6>
+</div>
+
+### Body Copy
+
+<ul class="va-rr-nobullet">
+  <li>Source Sans Pro (Regular, weight 400)</li>
+  <li><b>Source Sans Pro</b> (Bold, weight 700)</li>
+</ul>
+
+
+## Alignment
+
+Type set flush left provides the eye a constant starting point for each line, making text easier to read.
+
+<div class="va-rr-example va-rr-blockquote">
+  <h4>The Grand Canyon</h4>
+  <p>Grand Canyon National Park is the United States' 15th oldest national park. Named a UNESCO World Heritage Site in 1979, the park is located in Arizona.</p>
+</div>
+  
+## Line Length
+
+Controlling the length of lines of text in extended copy makes reading more comfortable by helping readers’ eyes flow easily from one line to the next. Somewhere between 50 and 75 characters per line is broadly considered to be a readable line length, while 66 characters is considered the ideal. Other factors beyond line length also affect reading comfort. Text with more space between lines can have somewhat longer line length. Also, contexts in which users will not be reading long passages of text (such as footnotes or alerts) can safely be set with somewhat longer lines as well.
+
+<div class="va-rr-example">
+    <p>Yosemite National Park is set within California’s Sierra Nevada mountains. It’s famed for its giant, ancient sequoias, and for Tunnel View, the iconic vista of towering Bridalveil Fall and the granite cliffs of El Capitan and Half Dome.</p>
+    <p class="va-rr-help-text">75 characters max on desktop</p>
+</div>
+  
+  
 ##Spacing
 - Component Element 
 - Component Description 
