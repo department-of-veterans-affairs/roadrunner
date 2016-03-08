@@ -91,8 +91,10 @@ $site-top:           100px;
 }
 
 //Styleguide Content -------- //
-.styleguide-content h2 {
-  color: $color-primary-darker;
+.styleguide-content {
+  h2, h3, h4 {
+    color: $color-primary-darker;
+  }
 }
 
 .va-rr-sg-header {
@@ -100,10 +102,10 @@ $site-top:           100px;
   color: $color-white;
   margin-bottom: 3em;
   padding: 2em;
-  height: 420px;
   
   @media (min-width: $medium-screen) {
     @include padding(null 3em 200px);
+    height: 420px;
   }
 }
 .va-rr-sg-header--branding {
@@ -138,9 +140,9 @@ $site-top:           100px;
   }
 }
 
-// Branding page =======
-
-// Typography section
+// Samples & examples ======
+// 
+// Branding > Typography section
 .va-rr-typo-sample-wrapper {
   @include clearfix;
   background: lilac;
@@ -169,4 +171,55 @@ $site-top:           100px;
 
 .va-bg-color-primary-darkest {
   background-color: $color-primary-darkest;
+}
+
+.va-rr-swatch-wrap {
+  margin-bottom: 20px;
+  
+  b, span {
+    display: block;
+  }
+}
+
+.va-rr-heading-separated {
+  border-bottom: 1px solid $va-text-alt;
+  font-weight: inherit;
+  padding-bottom: 2rem;
+  margin-bottom: 6rem;
+}
+
+.va-rr-example,
+.va-rr-blockquote {
+  font-family: $font-sans;
+  margin-top: rem(30px);
+  
+  h3,h4,h5,h6 {
+    font-family: inherit;
+  }
+}
+
+.va-rr-blockquote {
+  border-left: 2px solid $color-primary;
+  padding-left: 1rem;
+} 
+
+.va-rr-help-text {
+  border-top: 2px solid $color-primary;
+  color: $color-primary;
+  font-size: rem(10px);
+  padding-top: rem(10px);
+  text-align: center; 
+}
+
+
+// Lists =======
+
+.va-rr-nobullet {
+  list-style: none;
+  
+  & li::before {
+    display: list-item;
+    content: '';
+    padding: 0;
+  }
 }
