@@ -169,9 +169,13 @@ $site-top:           100px;
 // Grids =======
 .va-rr-grid-example {
   color: $color-white;
-  margin-bottom: 2em;
-  text-align: center;
+  margin: 2em 0;
   
+  h3, h4 {
+    color: inherit;
+    margin-top: 0;
+  }
+    
   .usa-grid {
     background-color: $color-gray-lightest;
     padding: 10px;

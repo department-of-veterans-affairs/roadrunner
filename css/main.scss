@@ -46,6 +46,10 @@ h1, h2, h3, [class^=va-heading] {
   text-transform: uppercase;
 }
 
+.va-text-center {
+  text-align: center;
+}
+
 .va-heading--alt {
   border-bottom: 1px solid $color-gray-light;
   max-width: 53rem; 
