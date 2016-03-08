@@ -1,6 +1,6 @@
 .va-rr-header {
   background: $va-bg-nav;
-  font: 700 1.5em / 1 $font-sans;
+  font: 400 1.3em $font-sans;
   height: rem(85px);
   line-height: 1;
   position: relative;
@@ -24,7 +24,7 @@
   margin: auto;
   
   @include media($medium-screen) {
-    margin-left: rem(40px);
+    margin-left: rem(20px);
   }
 }
 
@@ -45,7 +45,7 @@
     height: 100%;
     padding: .4rem 2rem;
     text-decoration: none;
-    line-height: 3;
+    line-height: 3.7;
 
     &:hover,
     &:active {
