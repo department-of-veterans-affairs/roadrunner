@@ -200,7 +200,7 @@ These colors are used primarily for content-specific needs, such as alerts and c
 <a href="https://github.com/department-of-veterans-affairs/roadrunner/blob/master/assets/images/design/logo/logo-alt.png" class="usa-button va-button--cta" alt="Vets dot gov logo, Dark">View Logo - Dark</a>
 
 <div class="va-bg-color-primary-darkest">
-  <img src="../../assets/images/design/logo/logo.png">
+  <img src="../../assets/images/design/logo/logo.png" alt="Vets dot gov logo, Dark">
 </div>
 
 <a href="https://github.com/department-of-veterans-affairs/roadrunner/blob/master/assets/images/design/logo/logo.png" class="usa-button va-button--cta" alt="Vets dot gov logo, white">View Logo - White</a>
@@ -209,7 +209,7 @@ These colors are used primarily for content-specific needs, such as alerts and c
   <img src="https://www.vets.gov/assets/images/design/logo/logo-hover.png" alt="Vets dot gov logo, hover state">
 </div>
 
-<a href="https://github.com/department-of-veterans-affairs/roadrunner/blob/master/assets/images/design/logo/logo-hover.png" class="usa-button va-button--cta">View Logo - Hover</a>
+<a href="https://github.com/department-of-veterans-affairs/roadrunner/blob/master/assets/images/design/logo/logo-hover.png" class="usa-button va-button--cta" alt="Vets dot gov logo, hover state">View Logo - Hover</a>
 
 
 ##Thread Image
