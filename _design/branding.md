@@ -65,7 +65,7 @@ Roboto Slab is an open-source slab serif typeface based on Roboto. With only fou
 ## Logo
 
 ![Vets dot gov Logo, navy](../../assets/images/design/logo/logo-alt.png)
-<a href="https://github.com/department-of-veterans-affairs/roadrunner/blob/master/assets/images/design/logo/logo-alt.png" class="usa-button va-button--cta">View Logo - Dark</a>
+<a href="https://github.com/department-of-veterans-affairs/roadrunner/blob/master/assets/images/design/logo/logo-alt.png" class="usa-button va-button--cta" alt="Vets dot gov logo, Dark">View Logo - Dark</a>
 
 <div class="va-bg-color-primary-darkest">
   <img src="../../assets/images/design/logo/logo.png">
