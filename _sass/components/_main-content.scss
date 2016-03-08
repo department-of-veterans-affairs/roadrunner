@@ -167,6 +167,14 @@ $site-top:           100px;
   }
 }
 
+.va-rr-swatch-wrap {
+  margin-bottom: 20px;
+  
+  b, span {
+    display: block;
+  }
+}
+
 .va-rr-heading-separated {
   border-bottom: 1px solid $va-text-alt;
   font-weight: inherit;
