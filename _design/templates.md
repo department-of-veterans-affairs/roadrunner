@@ -6,8 +6,65 @@ description: "Patterns for commonly used webpages and forms on vets.gov"
 
 ## Content Templates 
 
+<section class="va-rr-template-example">
+    <h6 class="va-rr-template-example-title">Topic Landing</h6> 
+  <div class="usa-grid-full">
+    <img class="usa-width-one-half" src="{{site.baseurl}}/assets/images/templates/topic-landing.png" alt="Topic Landing">
+    <p class="usa-width-one-half">
+      <a href="https://www.vets.gov/disability-benefits/">Topic landing</a> pages introduce main site areas. The template includes a brief introduction and card navigation linking to secondary content. It may also include quick links and help or contact information specific to the topic.
+    </p>
+  </div>
+</section>
 
-Process pages support visitors through complex workflows and set them up for successful engagement with VA process. The template utilizes a process list and may also include list form navigation.
+<section class="va-rr-template-example">
+    <h6 class="va-rr-template-example-title">Detailed Landing</h6> 
+  <div class="usa-grid-full">
+    <img class="usa-width-one-half" src="{{site.baseurl}}/assets/images/templates/detailed-landing.png" alt="Panel filter wireframe">
+    <p class="usa-width-one-half">
+      <a href="https://www.vets.gov/disability-benefits/conditions/">Detailed landing</a> pages communicate an overview of secondary information with links to faceted content. The template utilizes list style navigation and may include callout boxes, quick links and help or contact information specific to the topic.    
+    </p>
+  </div>
+</section>
+
+<section class="va-rr-template-example">
+    <h6 class="va-rr-template-example-title">Panel Filter</h6> 
+  <div class="usa-grid-full">
+    <img class="usa-width-one-half" src="{{site.baseurl}}/assets/images/templates/panel-filter.png" alt="Panel filter wireframe">
+    <p class="usa-width-one-half">
+      <a href="https://www.vets.gov/disability-benefits/conditions/exposure-to-hazardous-materials/agent-orange/">Panel filter</a> pages help visitors quickly identify content paths that are relevant to their specific circumstances. The template includes definition blocks that function as a filtering mechanism.
+    </p>
+  </div>
+</section>
+
+<section class="va-rr-template-example">
+    <h6 class="va-rr-template-example-title">Action Pages</h6> 
+  <div class="usa-grid-full">
+    <img class="usa-width-one-half" src="{{site.baseurl}}/assets/images/templates/action-pages.png" alt="Action pages wireframe">
+    <p class="usa-width-one-half">
+      <a href="https://www.vets.gov/disability-benefits/conditions/exposure-to-hazardous-materials/agent-orange/c-123/">Action pages</a> provide in-depth detail on particular topics and should help visitors to feel confident in taking next steps or accessing calls-to-action as needed. The template may also include definition blocks, Callout boxes and help or contact information specific to the topic.</p>
+    </p>
+  </div>
+</section>
+
+<section class="va-rr-template-example">
+    <h6 class="va-rr-template-example-title">Information Pages</h6> 
+  <div class="usa-grid-full">
+    <img class="usa-width-one-half" src="{{site.baseurl}}/assets/images/templates/information-pages.png" alt="Information pages wireframe">
+    <p class="usa-width-one-half">
+      <a href="https://www.vets.gov/disability-benefits/conditions/service-connected/">Information pages</a> include an introduction and supporting body copy.
+    </p>
+  </div>
+</section>
+
+<section class="va-rr-template-example">
+    <h6 class="va-rr-template-example-title">Process Pages</h6> 
+  <div class="usa-grid-full">
+    <img class="usa-width-one-half" src="{{site.baseurl}}/assets/images/templates/process-page.png" alt="Process Page Wireframe">
+    <p class="usa-width-one-half">
+      <a href="https://www.vets.gov/disability-benefits/apply-for-benefits/">Process pages</a> support visitors through complex workflows and set them up for successful engagement with VA process. The template utilizes a process list and may also include list form navigation.
+    </p>
+  </div>
+</section>
 
 
 ## Form Templates
