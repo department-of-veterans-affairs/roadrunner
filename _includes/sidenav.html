@@ -6,26 +6,89 @@
     <ul class="usa-sidenav-list">
     {% assign current = page.title %} 
     {% assign current_label = current|downcase|split:" " %}
-      {% for page in site.pages %}
-        {% if page.title %}
-        <li>
-          <a {% if page.title == current %}class="usa-current"{% endif %} href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% if page.title == current %}         
-            {% for collection in site.collections %}
-              {% if collection.label == current_label[0] %}
-                <ul class="">
-                {% for document in collection.docs %}
-                  <li><a href="{{document.url|prepend: site.baseurl}}">{{document.title}}</a></li>
-                {% endfor %}
-                </ul>
-              {% endif %}         
-            {% endfor %}
-          {% endif %}
-        </li>   
-       {% endif %}
+    
+      {% for spage in site.pages %}
+        <li> 
+        {% if spage.title %} 
+            <a {% if spage.title == current %}class="usa-current"{% endif %} href="{{ spage.url | prepend: site.baseurl }}">{{ spage.title }}</a>
+            
+            {% comment %}
+            This retrieves each collection by its key:
+              - design
+              - content
+              - feedback
+            
+            Each collection is an array.
+            
+            If the collection has items (if size > 0), we'll print its title.
+            Then we'll iterate over each document in the collection.
+            {% endcomment %}
+            
+            {% assign which = spage.title|downcase %}
+            {% if site[which].size > 0 %} 
+              <ul class="usa-sidenav-sub_list">
+               {% for document in site[which] %}
+                <li> 
+                  <a href="{{ document.url | prepend: site.baseurl }}">{{document.title}}</a>
+                  <ul class="usa-sidenav-sub_list">
+                  {% comment %}
+                    Every page-level navigation list should be added here as a conditional.
+                    Compare the known title to the document.title property. Check whether we
+                    are in the correct collection by comparing the value of `which` to the 
+                    collection name.
+                  {% endcomment %}
+            
+            
+                  {% if document.title == 'Branding' && which == 'design' %}
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#typesetting">Typesetting</a></li>
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#alignment">Alignment</a></li>
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#line-length">Line Length</a></li>
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#spacing">Spacing</a></li>
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#color">Color</a></li>
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#logo">Logo</a></li>
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#thread-image">Thread Image</a></li>              
+                  {% endif %}
+                  
+                  {% if document.title == 'Templates' && which == 'design' %}
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#form-templates">Form Templates</a></li>
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#grid">Grid</a></li>
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#footer">Footer</a></li>
+                  {% endif %}
+                  
+                  {% if document.title == 'Page Elements' && which == 'design' %}
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#alerts">Alerts</a></li>
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#lists">Lists</a></li>
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#definition-block">Definition Block</a></li>
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#callout-box">Callout Box</a></li>
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#tables">Tables</a></li>
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#links">Links</a></li>
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#results">Results</a></li>
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#search">Search</a></li>
+                  {% endif %}
+                  
+                  {% if document.title == 'Navigation' && which == 'design' %}
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#cards">Cards</a></li>
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#piano-keys">Piano Keys</a></li>
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#side-navigation">Side Navigation</a></li>
+                  {% endif %}
+                  
+                  {% if document.title == 'Forms &amp; Tools' && which == 'design' %}
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#text-input">Text Input</a></li>
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#dropdown">Dropdown</a></li>
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#font-sizings">Font Sizings</a></li>
+                    <li><a href="{{ document.url | prepend: site.baseurl }}#form-alerts">Form Alerts</a></li>
+                  {% endif %}
+                 </li>
+                </ul><!-- end sub-sub nav list --> 
+              </li>
+              {% endfor %}
+              </ul><!-- end sub nav list -->
+            {% endif %}
+        {% endif %}
+       </li> <!-- end nav list item -->
       {% endfor %}
-    </ul>
-  </nav>
+    </ul> <!-- end nav list -->
+   </nav>
 </aside>
 
 
