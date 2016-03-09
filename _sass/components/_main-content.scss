@@ -166,11 +166,34 @@ $site-top:           100px;
     margin: -70px 20px 0 0;
   }
 }
+// Grids =======
+.va-rr-grid-example {
+  color: $color-white;
+  margin: 2em 0;
+  
+  h3, h4 {
+    color: inherit;
+    margin-top: 0;
+  }
+    
+  .usa-grid {
+    background-color: $color-gray-lightest;
+    padding: 10px;
+  }
+  [class*=usa-width] {
+    background-color: #727272;
+    padding: 10px; 
+  }
+}
 
 // Colors =======
 
 .va-bg-color-primary-darkest {
   background-color: $color-primary-darkest;
+}
+
+img.va-bg-color-primary-darkest {
+  padding: 0 1em;
 }
 
 .va-rr-swatch-wrap {
