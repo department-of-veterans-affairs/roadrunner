@@ -1,69 +1,49 @@
-.usa-sidenav-list {
-  @include unstyled-list();
-
+.usa-sidenav-list,
+.usa-sidenav-sub_list  {
+  color: $color-white;
+  
   li {
-    border: none;
-    font-size: $h4-font-size;
+    border: none;  
   }
   
+  // Using !important here because usa-sidenav-list
+  // and usa-sidenav-sub_list are really specific.
   a {
-    border: none;
-    color: $color-white;
-    display: block;
-    font-family: $font-sans;
-    line-height: 1;
-    padding: 1rem 1rem 1rem 1.8rem;
- 
+    border-left: 4px solid transparent !important;
+    color: inherit !important;
+    
     &:hover {
       background-color: $va-bg-sidenav-hover;
-      color: $color-white;
-      text-decoration: none;
     }
-
-    &:focus {
-      position: relative;
-      z-index: 1;
-    }
-
+    
     &.usa-current {
-      color: $color-primary;
-      font-weight: $font-bold;
+      font-weight: inherit;
     }
-
-    &.usa-current {
-      border-left: 4px solid $color-primary;
-      padding-left: 1.4rem;
-    }
-  }
+  } 
 }
 
-.usa-sidenav-sub_list {
-  margin: 0;
-  width: 100%;
-
-  li {
-    border: none;
-    font-size: $h5-font-size;
+// TO DO: Refactor this. Using chaining and !important here to override
+// the !important on lines 12 & 13. Lines 12 & 13 overrides the specificity
+// inherited from USWDS. Using !important because it he saves some bytes. 
+.usa-current { 
+  background-color: $va-bg-sidenav-hover;
+   
+  &.va-rr-navigation {
+    border-left-color: $va-rr-navigation !important;
   }
-
-  a {
-    padding-left: 2.8rem;
-    line-height: $heading-line-height;
+  &.va-rr-branding {
+    border-left-color: $va-rr-brand !important;
   }
-
-  a:hover,
-  a.usa-current {
-    border: none;
-    padding-left: 2.8rem;
+  &.va-rr-branding {
+    border-left-color: $va-rr-brand !important;
   }
-
-  .usa-sidenav-sub_list {
-    a {
-      padding-left: 3.8rem;
-    }
-
-    a:hover {
-      padding-left: 3.8rem;
-    }
+  &.va-rr-formstools {
+    border-left-color: $va-rr-forms-tools !important;  
+  }
+  &.va-rr-pageelements {
+      border-left-color: $va-rr-page-elements !important;
+  }
+  &.va-rr-templates {
+      border-left-color: $va-rr-templates !important;
   }
 }
