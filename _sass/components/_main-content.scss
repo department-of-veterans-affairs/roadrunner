@@ -1,15 +1,6 @@
 // Variables -------------- //
 
-$width-nav-sidebar:  250px;
-$width-nav-sidebar-sm:  40%;
-$color-grid-dark:    #727272;
-$color-grid-light:   #e3e4e5;
-$color-text-alt: #323a45;
-$site-top:           100px;
-
-
 // Based on code by Diego Eis
-
 // Sidebar Nav --------- //
 .wrapper {
   min-height: 100%;
@@ -22,8 +13,6 @@ $site-top:           100px;
   height: 100%;
   top:0; 
   width: $width-nav-sidebar-sm;
-  overflow-x: hidden;
-  overflow-y: auto;
   background: $va-bg-sidenav; 
   z-index: 1;
 
@@ -35,8 +24,8 @@ $site-top:           100px;
   @include media($medium-screen) {
     @include transform(none);
     display: block;
-    padding: 5rem 3rem 3rem 3rem;
-    position: absolute;
+    overflow-y: auto;
+    padding: 12rem 3rem 3rem 3rem;
     width: $width-nav-sidebar;
     
     .va-button-close {
@@ -72,7 +61,7 @@ $site-top:           100px;
   
 .main-content { 
   @include media($medium-screen) {
-    margin-left: $width-nav-sidebar;    
+    margin: 8.5rem 0 0 $width-nav-sidebar;    
   }
 }
 
