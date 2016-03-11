@@ -82,7 +82,10 @@ $site-top:           100px;
   
 .main-content { 
   @include media($medium-screen) {
-    margin-left: $width-nav-sidebar;    
+    height: 100%;
+    margin-left: $width-nav-sidebar;
+    overflow-y: auto;
+    position: absolute;    
   }
 }
 
