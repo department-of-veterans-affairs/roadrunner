@@ -1,14 +1,8 @@
 {% assign spages = site.pages | sort: 'order' %}
 
-
-
 {% for spage in spages %}
   {% if spage.title %}
     <li><a {% if page.title == spage.title %}class="va-rr-nav-current"{% endif %}href="{{ spage.url | prepend: site.baseurl }}">{{ spage.title }}</a></li>
   {% endif %}
 {% endfor %}
-
-
-</ul>
-
 
