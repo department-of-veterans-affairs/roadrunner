@@ -145,6 +145,9 @@ This palette’s primary colors are blue, gray, and white. Blue is commonly asso
 
 ### Secondary 
 
+These are accent colors to provide additional lightness and style to pages looking for a more modern flair. These colors should be used to highlight important features on a page, such as buttons and breadcrumb. They should be used sparingly and never draw the eye to more than one piece of information at a time.
+
+
 <div class="usa-grid-full">
   <div class="va-rr-swatch-wrap usa-width-one-third">
     <svg class="va-rr-swatch" viewBox="0 0 200 200">
