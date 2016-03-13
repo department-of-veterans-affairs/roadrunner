@@ -13,8 +13,11 @@
   <meta name="description" content="Roadrunner was created by designers and developers of the Digital Services at the VA to standardize our projects, scale our teams and accelerate delivery. For any feedback, please create an issue on our GitHub repository.
 ">
   <meta property="og:description" content="" />
+  <link rel="stylesheet" href="/roadrunner/css/prism.css">
   <link rel="stylesheet" href="/roadrunner/css/main.css">
-  <link rel="canonical" href="https://department-of-veterans-affairs.github.io/roadrunner//roadrunner/">
+  <link rel="canonical" href="https://department-of-veterans-affairs.github.io//roadrunner/">
+
+
 
   <!-- Icons -->
   <!-- 128x128 -->
@@ -42,42 +45,85 @@
 
 
 <header class="va-rr-header">
-  <div class="usa-grid-full">
-		<div class="va-logo-type va-rr-header-logo">
-			<b class="va-text-sr">Vets.gov</b>
-		</div>
-		<nav class="va-rr-nav-top">
-			<ul class="va-rr-nav-top-list">
-			
-				
-					<li><a href="/roadrunner/content/content.html">Content Post</a></li>
-				
-			
-				
-					<li><a href="/roadrunner/design/design.html">Design Post</a></li>				
-				
-			
-				
+  <a href="#menu-content" class="va-rr-menu-trigger">
+    <svg class="va-rr-menu" width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" pointer-events="none"><title>Open menu</title><g transform="translate(3 3)" fill="none" fill-rule="evenodd"><circle stroke="#DBDBDB" cx="13" cy="13" r="13"/><g fill="#D8D8D8"><rect y=".547" width="13.816" height="1.582" rx="8" transform="translate(6 12.273)"/><rect y=".547" width="13.816" height="1.582" rx="8" transform="translate(6 9)"/><rect y=".547" width="13.816" height="1.582" rx="8" transform="translate(6 15.545)"/></g></g></svg>
+  </a> 
+  <div class="va-logo-type va-rr-header-logo">
+    <b class="va-text-sr">Vets.gov</b>
+  </div>
+  <nav class="va-rr-nav-top">
+    <ul class="va-rr-nav-top-list">
+      
 
-					<li><a href="/roadrunner/">Getting Started</a></li>
-				
-			
-				
-					<li><a href="/roadrunner/feedback/">Feedback Post</a></li>
-				
-			
-				
-			
-			</ul>
-		</nav>
-	</div>
+  
+
+  
+    <li><a href="/roadrunner/">Getting Started</a></li>
+  
+
+  
+
+  
+    <li><a href="/roadrunner/design/">Design</a></li>
+  
+
+  
+    <li><a href="/roadrunner/content/">Content</a></li>
+  
+
+  
+    <li><a href="/roadrunner/feedback/">Feedback</a></li>
+  
+
+
+      
+    </ul>
+  </nav>
 </header>
+
+
+<aside class="sidenav sidenav--home" id="menu-content">
+  <a href="#menu-content" class="va-button-close va-rr-menu-trigger">
+  	<svg close="va-rr-close" style="pointer-events:none;" width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" pointer-events="none"><title>Close</title><g fill="none" fill-rule="evenodd"><circle cx="13" cy="13" r="13" stroke="#DBDBDB" transform="translate(3 3)"/><g transform="rotate(45 2.11 22.162)" fill="#D8D8D8"><rect x="6.456" width="3.023" height="15.964" rx="8"/><path d="M14.454 6.422c.69 0 1.246.572 1.246 1.287v.544c0 .71-.56 1.287-1.246 1.287H1.48C.794 9.543.236 8.97.236 8.256V7.71c0-.712.56-1.288 1.246-1.288h12.974z"/></g></g></svg>
+  </a>
+  <nav>
+    <ul class="usa-sidenav-list">
+      
+
+  
+
+  
+    <li><a href="/roadrunner/">Getting Started</a></li>
+  
+
+  
+
+  
+    <li><a href="/roadrunner/design/">Design</a></li>
+  
+
+  
+    <li><a href="/roadrunner/content/">Content</a></li>
+  
+
+  
+    <li><a href="/roadrunner/feedback/">Feedback</a></li>
+  
+
+
+    </ul>
+  </nav>
+</aside>
+
+
+
+
+
 
   <section class="va-rr-section va-rr-jumbotron">
   <div class="usa-grid">
-    <h1 class="va-rr-jumbotron-heading">Getting Started!</h1>
-    <p class="va-rr-jumbotron-body">Roadrunner was designed to help the Digital Service team at the VA and Digital Service partners including VA employees and contractors build projects that will be migrated into Vets.gov and Appeals. The purpose of this open source style guide is to standarize our products, scale out team and accelerate our deliveries. When building a new app, team members can use the Roadrunner Github and help continue to build and upgrade the repository. </p>
-    <p><a href="https://github.com/department-of-veterans-affairs/roadrunner/" class="usa-button va-button--cta va-rr-jumbotron-cta">View on GitHub</a></p>
+    <h1 class="va-rr-jumbotron-heading">Getting Started</h1>
+    <p class="va-rr-jumbotron-body">Roadrunner was designed to help the Digital Service team at the VA and Digital Service partners including VA employees and contractors build projects that will be migrated into Vets.gov and Appeals. The purpose of this open source style guide is to standardize our products, scale out team, and accelerate our deliveries. When building a new app, team members can use the Roadrunner Github and help continue to build and upgrade the repository. </p>
   </div>
 </section>
 
@@ -86,11 +132,19 @@
     <section class="usa-width-one-half">
       <h2 class="va-text-sans">For Designers</h2>
       <p>From prototyping to designing a look and feel, use these tools for designing websites and digital services. Create experiences for your users that feel consistent across government platforms.</p>
+      <ul>
+        <li><a href="/roadrunner/design">Design Styleguide</a></li>
+        <li><a href="/roadrunner/content">Content Styleguide</a></li>
+      </ul>
     </section>
 
     <section class="usa-width-one-half">
       <h2 class="va-text-sans">For Developers</h2>
       <p>From prototyping to designing a look and feel, use these tools for designing websites and digital services. Create experiences for your users that feel consistent across government platforms.</p>
+      <ul>
+        <li><a href="https://github.com/department-of-veterans-affairs/roadrunner-rails">Sample App: Rails</a></li>
+        <li><a href="https://github.com/department-of-veterans-affairs/roadrunner-react">Sample App: React</a></li>
+      </ul>
     </section>
   </div>
 </div>
@@ -150,8 +204,9 @@
   </div>
 </section>
 
-<footer class="usa-footer va-rr-footer" role="contentinfo">
-  <div class="usa-grid-full">
+
+<footer class="usa-footer va-rr-footer">
+  <div class="usa-grid">
     <section class="usa-width-one-half">
       <h4 class="va-text-uc">Additional Resources</h4>            
     <ul>
@@ -160,22 +215,26 @@
       <li><a href="https://playbook.cio.gov/">U.S. Digital Services Playbook</a></li>
       <li><a href="https://playbook.cio.gov/designstandards/">U.S. Web Design Standards</a></li>
       <li><a href="https://pages.18f.gov/accessibility/pagetitles/">Accessibility Guide</a></li>
-      <li><a href="https://github.com/department-of-veterans-affairs/roadrunner">Contribute to GitHub</a></li>
+      <li><a href="https://github.com/department-of-veterans-affairs/roadrunner">Contribute on GitHub</a></li>
     </ul>
     </section>
     
       <section class="usa-width-one-half usa-end-row">
-        <h4>Help us make it better!</h4>
+        <h4 class="va-text-uc">Help us make it better</h4>
         <p>Roadrunner was created by designers and developers of the Digital Services at the VA to standardize our projects, scale our teams and accelerate delivery. For any feedback, please create an issue on our GitHub repository.
 </p>
         <p><a href="https://github.com/department-of-veterans-affairs/roadrunner/" class="usa-button va-button--cta">Contribute on GitHub</a></p>
       </section>
   </div>
   <div class="va-rr-footer-logo-wrap">
-    <a href="/" class="va-logo-type va-rr-footer-logo"><b class="va-text-sr">Vets.gov</b></a>
+    <a href="/roadrunner/" class="va-logo-type va-rr-footer-logo"><b class="va-text-sr">Vets.gov</b></a>
   </div>
 </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+<script src="/roadrunner/js/prism.js"></script>
+<script src="/roadrunner/js/styleguide.js"></script>
 <script src="/roadrunner/js/main.js"></script>
+<script src="/roadrunner/js/components.js"></script>
 </body>
 </html>
 

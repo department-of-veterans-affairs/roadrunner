@@ -2198,7 +2198,7 @@ fieldset {
 
 .va-rr-header {
   background: #032534;
-  font: 700 1.5em/1 "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+  font: 400 1.3em "Source Sans Pro", "Helvetica", "Arial", sans-serif;
   height: 8.5rem;
   line-height: 1;
   position: relative; }
@@ -2206,9 +2206,6 @@ fieldset {
     height: 100%; }
     .va-rr-header .usa-grid-full::after {
       content: none; }
-  @media screen and (min-width: 600px) {
-    .va-rr-header .va-rr-menu-trigger {
-      display: none; } }
 
 .va-rr-header-logo {
   height: 45px;
@@ -2217,20 +2214,26 @@ fieldset {
   top: 0;
   bottom: 0;
   margin: auto; }
+  @media screen and (min-width: 600px) {
+    .va-rr-header-logo {
+      margin-left: 2rem; } }
 
 .va-rr-nav-top {
-  display: inline-block;
-  height: 100%;
-  position: relative;
-  top: 0;
-  margin-left: 200px; }
+  display: none; }
+  @media screen and (min-width: 600px) {
+    .va-rr-nav-top {
+      display: inline-block;
+      height: 100%;
+      margin-left: 23rem;
+      position: relative;
+      top: 0; } }
   .va-rr-nav-top a {
     color: #ffffff;
     display: block;
     height: 100%;
-    padding: 0 2rem;
+    padding: .4rem 2rem;
     text-decoration: none;
-    line-height: 3; }
+    line-height: 3.7; }
     .va-rr-nav-top a:hover, .va-rr-nav-top a:active {
       background: #133A4B; }
 
@@ -2247,64 +2250,37 @@ fieldset {
     .va-rr-nav-top-list li::before, .va-rr-nav-top-list li::after {
       content: none; }
 
-.usa-sidenav-list {
-  display: block;
-  margin: 0;
-  padding: 0;
-  list-style-type: none; }
-  .usa-sidenav-list li {
-    display: list-item;
-    margin: 0; }
-    .usa-sidenav-list li:before {
-      display: none; }
-    .usa-sidenav-list li:after {
-      display: none; }
-  .usa-sidenav-list li {
-    border-top: 1px solid #5b616b;
-    font-size: 1.7rem; }
-    .usa-sidenav-list li:first-child {
-      border-top: none; }
-  .usa-sidenav-list a {
-    border: none;
-    color: #ffffff;
-    display: block;
-    font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
-    line-height: 1;
-    padding: 1rem 1rem 1rem 1.8rem; }
-    @media screen and (min-width: 600px) {
-      .usa-sidenav-list a {
-        color: #212121; } }
-    .usa-sidenav-list a:hover {
-      background-color: #032534;
-      color: #0071bc;
-      text-decoration: none; }
-    .usa-sidenav-list a:focus {
-      position: relative;
-      z-index: 1; }
-    .usa-sidenav-list a.usa-current {
-      color: #0071bc;
-      font-weight: 700; }
-    .usa-sidenav-list a.usa-current {
-      border-left: 4px solid #0071bc;
-      padding-left: 1.4rem; }
-
+.usa-sidenav-list,
 .usa-sidenav-sub_list {
-  margin: 0;
-  width: 100%; }
+  color: #ffffff; }
+  .usa-sidenav-list li,
   .usa-sidenav-sub_list li {
-    border: none;
-    font-size: 1.5rem; }
+    border: none; }
+  .usa-sidenav-list a,
   .usa-sidenav-sub_list a {
-    padding-left: 2.8rem;
-    line-height: 1.3; }
-  .usa-sidenav-sub_list a:hover,
-  .usa-sidenav-sub_list a.usa-current {
-    border: none;
-    padding-left: 2.8rem; }
-  .usa-sidenav-sub_list .usa-sidenav-sub_list a {
-    padding-left: 3.8rem; }
-  .usa-sidenav-sub_list .usa-sidenav-sub_list a:hover {
-    padding-left: 3.8rem; }
+    border-left: 4px solid transparent !important;
+    color: inherit !important; }
+    .usa-sidenav-list a:hover,
+    .usa-sidenav-sub_list a:hover {
+      background-color: #508EAA; }
+    .usa-sidenav-list a.usa-current,
+    .usa-sidenav-sub_list a.usa-current {
+      font-weight: inherit; }
+
+.usa-current {
+  background-color: #508EAA; }
+  .usa-current.va-rr-navigation {
+    border-left-color: #ce005d !important; }
+  .usa-current.va-rr-branding {
+    border-left-color: #9712b3 !important; }
+  .usa-current.va-rr-branding {
+    border-left-color: #9712b3 !important; }
+  .usa-current.va-rr-formstools {
+    border-left-color: #de2c13 !important; }
+  .usa-current.va-rr-pageelements {
+    border-left-color: #4b6118 !important; }
+  .usa-current.va-rr-templates {
+    border-left-color: #20bcc4 !important; }
 
 .wrapper {
   min-height: 100%; }
@@ -2322,15 +2298,12 @@ fieldset {
   height: 100%;
   top: 0;
   width: 40%;
-  border-right: 1px solid #aeb0b5;
   overflow-x: hidden;
   overflow-y: auto;
-  background: #133A4B;
+  background: #216380;
   z-index: 1; }
   .lt-ie9 .sidenav {
     width: 25%; }
-  .sidenav .usa-sidenav-sub_list {
-    display: none; }
   @media screen and (min-width: 600px) {
     .sidenav {
       -webkit-transform: none;
@@ -2338,7 +2311,6 @@ fieldset {
       -ms-transform: none;
       -o-transform: none;
       transform: none;
-      background: #ffffff;
       display: block;
       padding: 5rem 3rem 3rem 3rem;
       position: absolute;
@@ -2346,6 +2318,9 @@ fieldset {
       .sidenav .va-button-close {
         display: none; } }
 
+@media screen and (min-width: 600px) {
+  .sidenav--home {
+    display: none; } }
 .va-rr-menu-open {
   -webkit-transform: none;
   -moz-transform: none;
@@ -2371,12 +2346,37 @@ fieldset {
   .wrapper {
     position: relative; } }
 
-.main-content {
-  padding-top: 1em;
-  padding-bottom: 0; }
-  @media screen and (min-width: 600px) {
-    .main-content {
-      margin-left: 250px; } }
+@media screen and (min-width: 600px) {
+  .main-content {
+    margin-left: 250px; } }
+
+.styleguide-content h2, .styleguide-content h3, .styleguide-content h4 {
+  color: #205493; }
+
+.va-rr-sg-header {
+  background: #20bcc4;
+  color: #ffffff;
+  margin-bottom: 3em;
+  padding: 2em; }
+  @media (min-width: 600px) {
+    .va-rr-sg-header {
+      padding-right: 3em;
+      padding-bottom: 200px;
+      padding-left: 3em;
+      height: 420px; } }
+
+.va-rr-sg-header--branding {
+  background-color: #9712b3; }
+
+.va-rr-sg-header--templates {
+  background-color: #20bcc4; }
+
+.va-rr-sg-title {
+  margin: 0;
+  font-weight: normal; }
+
+.va-rr-sg-description {
+  margin-top: 3rem; }
 
 .styleguide-content {
   padding-bottom: 5em;
@@ -2392,6 +2392,95 @@ fieldset {
     .styleguide-content {
       padding-right: 3em;
       padding-left: 3em; } }
+
+.va-rr-typo-sample-wrapper {
+  background: lilac;
+  clear: both; }
+  .va-rr-typo-sample-wrapper:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+
+.va-rr-typo-sample {
+  font-size: 1.5rem; }
+
+.va-rr-typo-sample--xxxl {
+  font-size: 14rem; }
+
+@media (min-width: 600px) {
+  .va-rr-typo-sample-wrapper {
+    padding-top: 70px; }
+
+  .va-rr-typo-sample--xxxl {
+    font-size: 14rem;
+    float: left;
+    margin: -70px 20px 0 0; } }
+.va-rr-grid-example {
+  color: #ffffff;
+  margin: 2em 0; }
+  .va-rr-grid-example h3, .va-rr-grid-example h4 {
+    color: inherit;
+    margin-top: 0; }
+  .va-rr-grid-example .usa-grid {
+    background-color: #f1f1f1;
+    padding: 10px; }
+  .va-rr-grid-example [class*=usa-width] {
+    background-color: #727272;
+    padding: 10px; }
+
+.va-rr-template-example {
+  max-width: 45em; }
+
+.va-rr-template-example-title {
+  color: #0071bc; }
+
+.va-bg-color-primary-darkest {
+  background-color: #112e51; }
+
+img.va-bg-color-primary-darkest {
+  padding: 0 1em; }
+
+.va-rr-swatch-wrap {
+  margin-bottom: 20px; }
+  .va-rr-swatch-wrap b, .va-rr-swatch-wrap span {
+    display: block; }
+
+.va-rr-heading-separated {
+  border-bottom: 1px solid #ffffff;
+  font-weight: inherit;
+  padding-bottom: 2rem;
+  margin-bottom: 6rem; }
+
+.va-rr-example,
+.va-rr-blockquote {
+  font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+  margin-top: 3rem; }
+  .va-rr-example h3, .va-rr-example h4, .va-rr-example h5, .va-rr-example h6,
+  .va-rr-blockquote h3,
+  .va-rr-blockquote h4,
+  .va-rr-blockquote h5,
+  .va-rr-blockquote h6 {
+    font-family: inherit; }
+
+.va-rr-blockquote {
+  border-left: 2px solid #0071bc;
+  padding-left: 1rem; }
+
+.va-rr-help-text {
+  border-top: 2px solid #0071bc;
+  color: #0071bc;
+  font-size: 1rem;
+  padding-top: 1rem;
+  text-align: center; }
+
+.va-rr-nobullet {
+  list-style: none; }
+  .va-rr-nobullet li::before {
+    display: list-item;
+    content: '';
+    padding: 0; }
 
 .va-rr-footer {
   background: #0f2d52;
@@ -2419,8 +2508,8 @@ fieldset {
 .va-button--cta {
   background-color: #2e8540;
   text-decoration: none !important; }
-  .va-button--cta:hover {
-    background: #277237; }
+  .va-button--cta:visited {
+    background: #2e8540; }
 
 .va-button-close {
   background-color: transparent;
@@ -2431,7 +2520,52 @@ fieldset {
 
 .va-rr-menu-trigger {
   display: inline-block;
-  margin: 2rem; }
+  margin: 2.6rem 2rem 2rem; }
+
+@media screen and (min-width: 600px) {
+  .va-rr-menu-trigger {
+    display: none; } }
+.va-cards {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+  .va-cards li {
+    display: list-item;
+    margin: 0; }
+    .va-cards li:before {
+      display: none; }
+    .va-cards li:after {
+      display: none; }
+
+.va-card {
+  margin: 0;
+  height: auto; }
+  .va-card a {
+    padding: 1em 1.15em;
+    margin: 0 -0.9375rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    color: #fff;
+    display: block;
+    font-weight: normal;
+    text-decoration: none;
+    background: #205493; }
+    .va-card a:active, .va-card a:hover, .va-card a:focus {
+      background-color: #0071bc;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.35); }
+    @media (min-width: 600px) {
+      .va-card a {
+        height: 10em;
+        padding: .45em .75em;
+        border-bottom: none;
+        text-align: left;
+        border-radius: .2em;
+        margin: 0 0 .25em 0; } }
+
+.va-card-title {
+  font: 700 1.35em/1 "Source Sans Pro", "Helvetica", "Arial", sans-serif;
+  margin: 0;
+  padding: 0 0 .25em 0; }
 
 html, body {
   height: 100%; }
@@ -2452,8 +2586,19 @@ h1, h2, h3, [class^=va-heading] {
 .va-text-sans {
   font-family: "Source Sans Pro", "Helvetica", "Arial", sans-serif; }
 
+.va-text-serif {
+  font-family: "Roboto Slab", serif; }
+
 .va-text-uc {
   text-transform: uppercase; }
+
+.va-text-center {
+  text-align: center; }
+
+.va-heading--alt {
+  border-bottom: 1px solid #aeb0b5;
+  max-width: 53rem;
+  padding-bottom: .5em; }
 
 .va-text-sr {
   position: absolute !important;
@@ -2488,10 +2633,12 @@ h1, h2, h3, [class^=va-heading] {
   color: #ffffff; }
 
 .va-rr-jumbotron-heading {
-  font-size: 6.4rem; }
+  font-size: 5rem; }
 
 .va-rr-jumbotron-body {
-  font-size: 28px; }
+  font-size: 24px;
+  font-weight: 200;
+  width: 83rem; }
 
 .va-rr-jumbotron-cta {
   font-size: 24px; }
@@ -2505,9 +2652,3 @@ h1, h2, h3, [class^=va-heading] {
     font-size: 36px;
     font-weight: bold;
     line-height: 1.2; }
-
-.va-rr-heading-separated {
-  border-bottom: 1px solid #ffffff;
-  font-weight: inherit;
-  padding-bottom: 2rem;
-  margin-bottom: 6rem; }
