@@ -58,6 +58,7 @@
     text-decoration: none;
     line-height: 3.7;
 
+    &.va-rr-nav-current,
     &:hover,
     &:active {
       background: $va-bg-nav-hover;

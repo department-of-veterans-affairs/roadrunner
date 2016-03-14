@@ -1,6 +1,8 @@
-{% assign pages = site.pages | sort: 'order' %}
-{% for page in pages %}
-  {% if page.title %}
-    <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+{% assign spages = site.pages | sort: 'order' %}
+
+{% for spage in spages %}
+  {% if spage.title %}
+    <li><a {% if page.title == spage.title %}class="va-rr-nav-current"{% endif %}href="{{ spage.url | prepend: site.baseurl }}">{{ spage.title }}</a></li>
   {% endif %}
 {% endfor %}
+

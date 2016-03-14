@@ -1,4 +1,5 @@
 // Variables -------------- //
+
 // Based on code by Diego Eis
 
 // Sidebar Nav --------- //
@@ -109,6 +110,25 @@
 .va-rr-sg-description {
   margin-top: 3rem;
 }
+
+// Background colors for each page =======
+.va-rr-bg-navigation {
+  background-color:  $va-rr-navigation;
+  color: $va-text-alt-dark;
+}
+.va-rr-bg-branding {
+  background-color:  $va-rr-brand;
+}
+.va-rr-bg-formstools {
+  background-color:  $va-rr-forms-tools;  
+}
+.va-rr-bg-pageelements {
+    background-color:  $va-rr-page-elements;
+}
+.va-rr-bg-templates {
+    background-color:  $va-rr-templates;
+}
+
 
 .styleguide-content {
   padding-bottom: 5em;
