@@ -5,12 +5,14 @@
   <nav>
     <ul class="usa-sidenav-list">
     {% assign current = page.title %} 
-    {% assign current_label = current|downcase|split:" " %}   
+    {% assign current_label = current|downcase|split:" " %}
+    {% assign hide_on_desktop = 'Getting Started,Feedback'|split:',' %}   
       {% for spage in site.pages %}
-        <li> 
+        <li>
+        {% assign testvar = hide_on_desktop contains 'Feedback' %}
+                 
         {% if spage.title %} 
-            <a {% if current.title == page.title|downcase %}class="usa-current"{% endif %} href="{{ spage.url | prepend: site.baseurl }}">{{ spage.title }}</a>
-            
+            <a class="{% if current.title == page.title|downcase %}usa-current{% endif %}{% if hide_on_desktop contains spage.title %}va-rr-show-sm{% endif %}" href="{{ spage.url | prepend: site.baseurl }}">{{ spage.title }}</a>
             {% comment %}
             This retrieves each collection by its key:
               - design
@@ -26,6 +28,7 @@
             {% assign which = spage.title|downcase %}
             {% if site[which].size > 0 %} 
               <ul class="usa-sidenav-sub_list">
+             
                {% for document in site[which] %}
                 {% assign title_class = document.title|downcase|replace:' ',''|replace:'&amp;', ''|prepend: 'va-rr-' %}
                 <li> 

@@ -73,6 +73,19 @@ h1, h2, h3, [class^=va-heading] {
   display: inline-block;
 }
 
+// Shows or hides elements at various breakpoints
+.va-rr-show-sm {
+  display: inherit;
+}
+
+@include media($medium-screen) {
+  .va-rr-show-sm {
+    display: none !important;
+  }
+}
+  
+  
+
 // Generic container styles =======
 .va-rr-section {
   padding: 51px 0;
