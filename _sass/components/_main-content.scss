@@ -4,7 +4,9 @@ $width-nav-sidebar:  250px;
 $width-nav-sidebar-sm:  40%;
 $color-grid-dark:    #727272;
 $color-grid-light:   #e3e4e5;
+$color-text-alt: #323a45;
 $site-top:           100px;
+
 
 // Based on code by Diego Eis
 
@@ -122,6 +124,7 @@ $site-top:           100px;
 // Background colors for each page =======
 .va-rr-bg-navigation {
   background-color:  $va-rr-navigation;
+  color: $va-text-alt-dark;
 }
 .va-rr-bg-branding {
   background-color:  $va-rr-brand;
