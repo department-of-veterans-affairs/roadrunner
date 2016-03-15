@@ -9,7 +9,7 @@
   @include transition(transform 250ms ease-in);  
   position: fixed;
   height: 100%;
-  top:0; 
+  top: 0; 
   width: $width-nav-sidebar-sm;
   background: $va-bg-sidenav; 
   z-index: 1;
@@ -29,6 +29,12 @@
     .va-button-close {
       display: none;
     }
+  }
+}
+
+.va-in-beta .sidenav {
+  @include media($medium-screen) {
+    padding-top: 15rem;
   }
 }
 
@@ -59,9 +65,16 @@
   
 .main-content { 
   @include media($medium-screen) {
-    margin: 8.5rem 0 0 $width-nav-sidebar;    
+    margin: 5em 0 0 $width-nav-sidebar;    
   }
 }
+
+.va-in-beta .main-content {
+  @include media($medium-screen) {
+    margin-top: 7em;
+  }
+}
+
 
 //Styleguide Content -------- //
 .styleguide-content {
