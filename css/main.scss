@@ -142,6 +142,7 @@ h1, h2, h3, [class^=va-heading] {
 }
 
 .va-notice {
+    display: none;
     font-size: 1.44rem;
     font-weight: 500;
     color: $va-bg-alt-med;
