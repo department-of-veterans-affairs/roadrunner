@@ -3,59 +3,59 @@ layout: guide
 title:  "Page Elements"
 ---
 
-#Page Elements
+## Page Elements
 -Title
 -Description
 
-##Buttons
+### Buttons
 - Component Element 
 - Component Description 
 - Component Code
 - Component 508
 
-##Alerts
+### Alerts
 - Component Element 
 - Component Description 
 - Component Code
 - Component 508
 
-##Lists
+### Lists
 - Component Element 
 - Component Description 
 - Component Code
 - Component 508
 
-##Definition Block
+### Definition Block
 - Component Element 
 - Component Description 
 - Component Code
 - Component 508
 
-##Callout Box
+### Callout Box
 - Component Element 
 - Component Description 
 - Component Code
 - Component 508
 
-##Tables
+### Tables
 - Component Element 
 - Component Description 
 - Component Code
 - Component 508
 
-##Links
+### Links
 - Component Element 
 - Component Description 
 - Component Code
 - Component 508
 
-##Results
+### Results
 - Component Element 
 - Component Description 
 - Component Code
 - Component 508
 
-##Search
+### Search
 - Component Element 
 - Component Description 
 - Component Code

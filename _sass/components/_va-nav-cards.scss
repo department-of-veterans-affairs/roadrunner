@@ -34,7 +34,9 @@
     }
   }
 }
-.va-card-title {
+
+.va-card .va-card-title {
+  color: $color-white;
   font: 700 1.35em / 1 $font-sans;
   margin: 0;
   padding: 0 0 .25em 0;

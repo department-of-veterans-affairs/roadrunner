@@ -55,24 +55,12 @@ $site-top:           100px;
     @include transform(none);
 }
 
-.visual-style .sidenav .visual-style-sublist {
+.visual-style-sublist {
   display: block;
 
   ul {
     display: block;
   }
-}
-
-.form-controls .sidenav .form-controls-sublist {
-  display: block;
-}
-
-.form-templates .sidenav .form-templates-sublist {
-  display: block;
-}
-
-.footers .sidenav .footers-sublist {
-  display: block;
 }
 
 // Main Content --------- //
