@@ -4,8 +4,8 @@ title:  "Key"
 ---
 
 <!-- Sidenav Key-->
-# Main Section (i.e. Branding)
-## Subsection (ie. Typography)
+## Main Section (i.e. Branding)
+### Subsection (ie. Typography)
 
 <!---Section Key -->
 Header (big color block thing w/ title and Description)

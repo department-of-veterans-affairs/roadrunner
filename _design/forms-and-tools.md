@@ -3,29 +3,29 @@ layout: guide
 title:  "Forms &amp; Tools"
 ---
 
-#Forms & Tools
+## Forms & Tools
 -Title
 -Description
 
-##Text Input
+### Text Input
 - Component Element 
 - Component Description 
 - Component Code
 - Component 508
 
-##Dropdown
+### Dropdown
 - Component Element 
 - Component Description 
 - Component Code
 - Component 508
 
-##Font Sizings
+### Font Sizings
 - Component Element 
 - Component Description 
 - Component Code
 - Component 508
 
-##Form Alerts
+### Form Alerts
 - Component Element 
 - Component Description 
 - Component Code

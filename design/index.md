@@ -4,7 +4,7 @@ title:  "Design"
 order: 1
 ---
 
-# Style Guide
+## Style Guide
 
 These are notes for a style guide in the near future.
 We want to make sure to document any inconsistencies and make uniform decisions as we develop these best practices.

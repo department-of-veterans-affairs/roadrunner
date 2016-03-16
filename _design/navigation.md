@@ -3,17 +3,17 @@ layout: guide
 title:  "Navigation"
 ---
 
-#Navigation
+## Navigation
 -Title
 -Description
 
-##Breadcrumbs
+### Breadcrumbs
 - Component Element 
 - Component Description 
 - Component Code
 - Component 508
 
-## Cards
+### Cards
 
 Card style navigation is used on topic landing pages to indicate major content areas. With brief descriptions on each card, users can easily scan a page and understand what each card entails without having to click through other pages. The descriptions on each card should be limited to 100 characters for quick and easy download of information.
 
@@ -34,13 +34,13 @@ Card style navigation is used on topic landing pages to indicate major content a
   </ul>
 </div>
 
-##Piano Keys
+### Piano Keys
 - Component Element 
 - Component Description 
 - Component Code
 - Component 508
 
-##Side Navigation
+### Side Navigation
 - Component Element 
 - Component Description 
 - Component Code

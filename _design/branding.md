@@ -32,11 +32,11 @@ Inspired by twentieth-century American gothic typeface design, its slender but o
 
 Roboto Slab is an open-source slab serif typeface based on Roboto. With only four variations of weight, Roboto Slab is appropriate for headers and can be paired with other san serifs. Roboto Slab is used in the breadcrumb and title headers throughout Vets.gov to convey a friendly and welcoming gesture to users.
 
-## Typesetting
+### Typesetting
 
 Readable text allows users to efficiently read and take in textual information, whereas text that is not readable turns off readers or makes it challenging for them to stay focused. The following guidelines promote good readability.
 
-### Heading
+#### Heading
 
 Content heading 1 and 2 are reserved for the vets.gov header and breadcrumb navigation.
 
@@ -47,7 +47,7 @@ Content heading 1 and 2 are reserved for the vets.gov header and breadcrumb navi
   <h6 class="va-text-sans">Heading 6</h6>
 </div>
 
-### Body Copy
+#### Body Copy
 
 <ul class="va-rr-nobullet">
   <li>Source Sans Pro (Regular, weight 400)</li>
@@ -55,7 +55,7 @@ Content heading 1 and 2 are reserved for the vets.gov header and breadcrumb navi
 </ul>
 
 
-## Alignment
+### Alignment
 
 Type set flush left provides the eye a constant starting point for each line, making text easier to read.
 
@@ -64,7 +64,7 @@ Type set flush left provides the eye a constant starting point for each line, ma
   <p>Grand Canyon National Park is the United States' 15th oldest national park. Named a UNESCO World Heritage Site in 1979, the park is located in Arizona.</p>
 </div>
   
-## Line Length
+### Line Length
 
 Controlling the length of lines of text in extended copy makes reading more comfortable by helping readers’ eyes flow easily from one line to the next. Somewhere between 50 and 75 characters per line is broadly considered to be a readable line length, while 66 characters is considered the ideal. Other factors beyond line length also affect reading comfort. Text with more space between lines can have somewhat longer line length. Also, contexts in which users will not be reading long passages of text (such as footnotes or alerts) can safely be set with somewhat longer lines as well.
 
@@ -74,20 +74,20 @@ Controlling the length of lines of text in extended copy makes reading more comf
 </div>
   
   
-##Spacing
+### Spacing
 - Component Element 
 - Component Description 
 - Component Code
 - Component 508
 
-## Color
+### Color
 
 This palette is designed to support a range of distinct visual styles that continue to feel connected. The intent of the palette is to convey a warm and open American spirit, with bright saturated tints of blue, grounded in sophisticated deeper shades of cool blues and grays. These colors — combined with clear hierarchy, good information design, and ample white space — should leave users feeling welcomed and in good hands.
 
 This is a simple, minimalist color palette. Shades of blue dominate, providing a neutral backdrop on which brighter shades, clean type treatment, and bright white content areas "pop" on the page.
 
 
-### Primary 
+#### Primary 
 
 This palette’s primary colors are blue, gray, and white. Blue is commonly associated with trust, confidence, and sincerity; it is also used to represent calmness and responsibility.
 
@@ -143,7 +143,7 @@ This palette’s primary colors are blue, gray, and white. Blue is commonly asso
   </div>
 </div>
 
-### Secondary 
+#### Secondary 
 
 These are accent colors to provide additional lightness and style to pages looking for a more modern flair. These colors should be used to highlight important features on a page, such as buttons and breadcrumb. They should be used sparingly and never draw the eye to more than one piece of information at a time.
 
@@ -166,7 +166,7 @@ These are accent colors to provide additional lightness and style to pages looki
   </div>
 </div>
 
-### Tertiary
+#### Tertiary
 
 These colors are used primarily for content-specific needs, such as alerts and callout information. They should never overpower the primary colors.
 
@@ -197,7 +197,7 @@ These colors are used primarily for content-specific needs, such as alerts and c
 </div>
 
 
-## Logo
+### Logo
 
 ![Vets dot gov Logo, navy](../../assets/images/design/logo/logo-alt.png)
 <a href="https://github.com/department-of-veterans-affairs/roadrunner/blob/master/assets/images/design/logo/logo-alt.png" class="usa-button va-button--cta" alt="Vets dot gov logo, Dark">View Logo - Dark</a>
@@ -213,7 +213,7 @@ These colors are used primarily for content-specific needs, such as alerts and c
 <a href="https://github.com/department-of-veterans-affairs/roadrunner/blob/master/assets/images/design/logo/logo-hover.png" class="usa-button va-button--cta" alt="Vets dot gov logo, hover state">View Logo - Hover</a>
 
 
-##Thread Image
+### Thread Image
 
 ![Thread Image](https://www.vets.gov/assets/images/design/background/thread.png)
 
