@@ -1,5 +1,8 @@
 # Style Guide
 
+The Roadrunner design guide is a library of visual elements and code snippets for various designers and front end developers who want to successfully build their apps into existing Vets.gov projects. From branding to form components, Roadrunner has all the components you need with descriptions and accessibility documentations. While highly influenced by the US Web Design Standards, Vets.gov branding and identity was specially designed for Veteran needs and services.
+_____
+
 These are notes for a style guide in the near future.
 We want to make sure to document any inconsistencies and make uniform decisions as we develop these best practices.
 For each section we may want to include a mini description or reason behind some of these design decisions. 
