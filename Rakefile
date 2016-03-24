@@ -29,7 +29,7 @@ namespace :tests do
   desc "NO JEKYLL REBUILD: Run standard continuous integration tests."
   task :ci_nobuild => [ :htmlproof ]
 
-  desc "Validate HTML. No extenral checks."
+  desc "Validate HTML. No external checks."
   task :htmlproof do
     sh "bundle exec htmlproof ./_site --only-4xx --disable-external --check-favicon --check-html --allow-hash-href"
   end
