@@ -1,13 +1,13 @@
 ---
 layout: guide
 title:  "Templates"
-description: "Patterns for commonly used webpages and forms on vets.gov"
+description: "As we learn about our user and stakeholder needs, our page layouts and UI components are evolving and becoming more cohesive.The Vets.gov templates are still in progress and can be used as reference for consistently and uniformity throughout the site. For better scan-ability, our UI components are broken down to be read from left to right and our pages are composed with intentional white space."
 ---
 
 ## Content Templates 
 
 <section class="va-rr-template-example">
-    <h6 class="va-rr-template-example-title">Topic Landing</h6> 
+    <h6 class="va-rr-template-example-title">Topic Landing</h6>
   <div class="usa-grid-full">
     <img class="usa-width-one-half" src="{{site.baseurl}}/assets/images/templates/topic-landing.png" alt="Topic Landing">
     <p class="usa-width-one-half">

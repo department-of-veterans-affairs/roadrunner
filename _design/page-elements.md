@@ -1,6 +1,7 @@
 ---
 layout: guide
 title:  "Page Elements"
+description: Our UI components were build to provide a seamless and valuable experience for all users. Because our high-level goal is functionality, we believe that our design components should be based upon purpose. Please refer to our templates to learn more about how these elements can be used. 
 ---
 
 ## Page Elements
@@ -20,6 +21,24 @@ title:  "Page Elements"
 - Component 508
 
 ### Lists
+- Component Element 
+- Component Description 
+- Component Code
+- Component 508
+
+### Subway Maps
+- Component Element 
+- Component Description 
+- Component Code
+- Component 508
+
+### Contact Section
+- Component Element 
+- Component Description 
+- Component Code
+- Component 508
+
+### Time Stamp
 - Component Element 
 - Component Description 
 - Component Code
