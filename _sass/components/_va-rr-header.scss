@@ -23,10 +23,19 @@
   }
 }
 
-.va-in-beta .va-rr-header--alt {
-  @include media($medium-screen) {
-    top: 1.8em;
+.va-in-beta {
+  .va-rr-header {
+    @include media($medium-screen) {
+      margin-top: 1.8em;
+    }
   }
+  .va-rr-header--alt {
+    @include media($medium-screen) {
+      margin-top: 0;
+      top: 1.8em;
+    }
+  }
+
 }
 
   
