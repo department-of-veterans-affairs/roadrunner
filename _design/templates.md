@@ -1,7 +1,7 @@
 ---
 layout: guide
 title:  "Templates"
-description: "As we learn about our user and stakeholder needs, our page layouts and UI components are evolving and becoming more cohesive.The Vets.gov templates are still in progress and can be used as reference for consistently and uniformity throughout the site. For better scan-ability, our UI components are broken down to be read from left to right and our pages are composed with intentional white space."
+description: "Vets.gov page layouts and UI components are continuing to evolve as we iterate our content and style. Vets.gov templates are still work in progress and can be used for reference in order to keep tools and products consistent. Designing for readability, UI components are broken down to be read from left to right and pages are composed with plenty of white space."
 ---
 
 ## Content Templates 

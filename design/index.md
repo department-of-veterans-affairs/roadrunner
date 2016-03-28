@@ -1,6 +1,7 @@
 ---
 layout: guide
 title:  "Design"
+description: Visual elements, UI components, and code snippets adapted from the <a href="https://playbook.cio.gov/designstandards/">US Web Design Standards</a> to create consistency among all tools and products across Vets.gov platform. Built and maintained by the Digital Service at the Department of Veterans Affairs, Vets.gov Playbook is guide for creating, beautiful, usable, and accessible Vets.gov designs.
 order: 1
 ---
 

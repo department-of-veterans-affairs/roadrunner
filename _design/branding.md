@@ -1,7 +1,7 @@
 ---
 layout: guide
 title:  "Branding"
-description: "With clarity and kindness as our priority, Vets.gov uses typography and color palettes that are usable and accessible for all users. Assuring a warm and welcoming feel, all headers are in Roboto Slab, a font described to be mechanical yet inviting. For clear and crisp read, Source Sans Pro can be found in copy and can be easy to read in all sizes and weight. We use the Web Content Accessibility Guidelines for Veterans of all ability and access to digital platforms. The 4.5:1 color contrast checker is a helpful online tool to ensure legibility."
+description: With clarity and kindness as our priority, Vets.gov uses typography and color palettes from the <a href="https://playbook.cio.gov/designstandards/">US Web Design Standards</a> that are easy to read, usable, and accessible.
 ---
 
 ## Typography

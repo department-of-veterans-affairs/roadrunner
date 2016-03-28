@@ -1,7 +1,7 @@
 ---
 layout: guide
 title:  "Navigation"
-description: For easy and manageable navigation, breadcrumb links appear in the header of each content page to help visitors navigate and keep track of their location. For users with low vision and motor disability, our site is in tab control so that users who can move through the breadcrumb, links and text fields. 
+description: "Breadcrumb links appear in the header of each content page to help visitors navigate and keep track of their location. Users are also able to navigate through breadcrumbs, links, and text fields using tab control for accessibility."
 ---
 
 ## Navigation
