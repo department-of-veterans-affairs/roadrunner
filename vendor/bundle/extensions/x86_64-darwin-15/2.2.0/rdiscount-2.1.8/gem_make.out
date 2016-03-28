@@ -1,4 +1,4 @@
-/Users/G/.rvm/rubies/ruby-2.2.4/bin/ruby -r ./siteconf20160315-24819-15912xg.rb extconf.rb
+/Users/G/.rvm/rubies/ruby-2.2.4/bin/ruby -r ./siteconf20160318-53076-122y5gu.rb extconf.rb
 checking for random()... yes
 checking for srandom()... yes
 checking for rand()... yes
@@ -1694,4 +1694,4 @@ compiling xmlpage.c
 linking shared-object rdiscount.bundle
 
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 rdiscount.bundle ./.gem.20160315-24819-1x6yltf
+/usr/bin/install -c -m 0755 rdiscount.bundle ./.gem.20160318-53076-gar59h
