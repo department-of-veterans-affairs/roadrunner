@@ -1,7 +1,7 @@
 ---
 layout: guide
 title:  "Forms &amp; Tools"
-description: _Coming Soon_ 
+
 ---
 
 ## Forms & Tools
