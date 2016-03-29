@@ -1,6 +1,7 @@
 ---
 layout: guide
 title:  "Branding"
+description: With clarity and kindness as our priority, Vets.gov uses typography and color palettes from the <a href="https://playbook.cio.gov/designstandards/">US Web Design Standards</a> that are easy to read, usable, and accessible.
 ---
 
 ## Typography
