@@ -1,6 +1,7 @@
 ---
 layout: guide
 title:  "Forms &amp; Tools"
+
 ---
 
 ## Forms & Tools
@@ -14,6 +15,18 @@ title:  "Forms &amp; Tools"
 - Component 508
 
 ### Dropdown
+- Component Element 
+- Component Description 
+- Component Code
+- Component 508
+
+### Side Navigation
+- Component Element 
+- Component Description 
+- Component Code
+- Component 508
+
+### Page Arrows
 - Component Element 
 - Component Description 
 - Component Code

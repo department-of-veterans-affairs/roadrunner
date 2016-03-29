@@ -1,6 +1,7 @@
 ---
 layout: guide
 title:  "Navigation"
+description: "Breadcrumb links appear in the header of each content page to help visitors navigate and keep track of their location. Users are also able to navigate through breadcrumbs, links, and text fields using tab control for accessibility."
 ---
 
 ## Navigation
