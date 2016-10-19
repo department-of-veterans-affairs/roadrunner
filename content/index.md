@@ -17,11 +17,34 @@ Vets.gov uses plain language — familiar words, simple sentences, and manageabl
 Our goal is to give Veterans and their families the information they need to make important decisions confidently and easily.
 
 ###Table of Contents
-+ Understand how users read on a screen
- + Don't assume users will read every word
-+ Content organization
- + Put the most important information first
- + Use headers to facilitate scanning
+####Understand how users read on a screen
+
+Reading can be hard work — especially on a screen. The strategies and guidelines described here promote veteran-centered content.
+
+Cognitively speaking, users have to both decode (assign meaning) and then comprehend text by stringing multiple words together to understand the content. When users have challenges with literacy (and nearly half of all Americans do,) reading on a screen can be even more challenging. Users with limited literacy skills tend to:
+ - Read more slowly
+ - Skip words or whole sections
+ - Try to read every word (often re-reading every word)
+
+ **The bottom line?**
+ Don't assume users will read every word. Make content easy to read — put the most important information first, break up chunks of text with actionable headers to facilitate scanning, and keep sentences short. 
+
+ (For more about this topic, visit: 
+ - [Health Literacy Online](http://health.gov/healthliteracyonline/what-we-know/section-1-1/))
+ - [18F Content Guide - How Users Read](https://pages.18f.gov/content-guide/how-users-read/)
+
+
+####Content organization
+#####Put the most important information first
+No matter how well-written your content is, [users will only read 25% of it](https://www.nngroup.com/articles/website-reading/). Always put the most important information first — in the material as a whole and any sub-sections. (Putting the most important information first will also help your mobile users to skim their tiny screens!)
+
+#####Break up text with headers to facilitate scanning
+ Large "walls of text" can overwhelm your users. Write headers as complete thoughts that emphasize action or ask a question. Statements and questions in the voice of the veteran can make contement more relateable. Headers can prepare readers for a given topic and make it seem less intimidating. 
+
+ **The bottom line?**
+ Many users will only read the headers — and the ones that don't will scan them to find what they need. Make them meaningful! 
+
+
  + Use bulleted lists
  + "Chunk" information
 + Address the Veteran
