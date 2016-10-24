@@ -4,9 +4,11 @@
 
 #### Overview
 
-A repository that will serve as sample app(s) and guidelines for Digital Service team application development. It will be a series of modular internal products that serves as a styleguide with specifications for content, design, engineering envrionment, automated testing and basic documentation. 
+Sample app(s) and guidelines for Digital Service team application development. A series of modular internal products that serves as a styleguide with specifications for content, design, engineering envrionment, automated testing, and basic documentation. 
 
 Primary customers are the Digital Service Team and our approved partners (in-house OIT designers and developers and/or contractors) to ramp up quickly and successfully design, build, and incorporate their apps into existing projects. 
+
+[View the site](http://department-of-veterans-affairs.github.io/roadrunner/)
 
 #### Purpose
 
