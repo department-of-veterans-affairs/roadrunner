@@ -1,4 +1,4 @@
-/Users/G/.rvm/rubies/ruby-2.2.4/bin/ruby -r ./siteconf20160315-24819-1wsi8fe.rb extconf.rb
+/Users/G/.rvm/rubies/ruby-2.2.4/bin/ruby -r ./siteconf20160318-53076-1ge4bx2.rb extconf.rb
 checking for main() in -lc... yes
 creating Makefile
 
@@ -71,4 +71,4 @@ static const int redcloth_scan_en_main = 2250;
 linking shared-object redcloth_scan.bundle
 
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 redcloth_scan.bundle ./.gem.20160315-24819-hl2nvy
+/usr/bin/install -c -m 0755 redcloth_scan.bundle ./.gem.20160318-53076-16bm5ag
