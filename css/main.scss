@@ -10,7 +10,7 @@
         "components/va-rr-header",
         "components/sidenav",
         "components/main-content",
-        "va-rr-footer",
+        "components/va-rr-footer",
         "va-buttons",
         "components/va-nav-cards"
 ;
@@ -142,10 +142,24 @@ h1, h2, h3, h4, [class^=va-heading] {
 }
 
 .va-notice {
-    font-size: 1.44rem;
-    font-weight: 500;
-    color: $va-bg-alt-med;
-    margin-bottom: 0;
-    margin-top: 0;
-    padding-left: 1.8rem;
+  background: #fff;
+  font-size: 1.44rem;
+  font-weight: 500;
+  color: $va-bg-alt-med;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 1rem 1rem 1rem 1.8rem;
+  
+  
+  p {
+    margin: 0;
   }
+  
+   @include media($medium-screen) {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+  }
+  
+}

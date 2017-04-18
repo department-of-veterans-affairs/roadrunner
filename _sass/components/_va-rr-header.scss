@@ -3,6 +3,7 @@
   font: 400 1.3em $font-sans;
   height: rem(85px);
   line-height: 1;
+  width: 100%;
   position: relative;
   
   .usa-grid-full {
@@ -13,18 +14,43 @@
     }
   }
 }
+
+.va-rr-header--alt {
+  @include media($medium-screen) {
+    top: 0;
+    position: fixed;
+    z-index: 2;
+  }
+}
+
+.va-in-beta {
+  .va-rr-header {
+    @include media($medium-screen) {
+      margin-top: 1.8em;
+    }
+  }
+  .va-rr-header--alt {
+    @include media($medium-screen) {
+      margin-top: 0;
+      top: 1.8em;
+    }
+  }
+
+}
   
 .va-rr-header-logo {
   height: 45px;
   width:  177px;
   // Next 4 lines vertically center the logo
-  position: absolute;
-  top: 0;
-  bottom: 0;
+  position: relative;
+  top: 7px;
+  bottom: 0px;
   margin: auto;
   
   @include media($medium-screen) {
     margin-left: rem(20px);
+    position: absolute;
+    top: 0px;
   }
 }
 
